@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211215_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "kilosort_output_directory": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0",
+      "npx_directory": "Z:\\\\HarveyLab\\\\Tier1\\\\Cindy\\\\EphysData\\\\CY\\\\23\\\\211215\\\\000000",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211215_imec0-input.json",
+    "ephys_params": {
+      "ap_band_file": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\CY23_LLP_20211215_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05,
+      "reorder_lfp_channels": false,
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "num_channels": 385,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "lfp_band_file": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\CY23_LLP_20211215_g0_tcat.imec0.lf.bin",
+      "sample_rate": 30000.0
+    },
+    "ks_postprocessing_params": {
+      "align_avg_waveform": false,
+      "between_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "cWaves_path": "C:\\Users\\joshs\\Documents\\ecephys_spike_sorting_packages\\C_Waves-win",
+      "remove_duplicates": true,
+      "within_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "deletion_mode": "lowAmpCluster"
+    }
+  },
+  "execution_time": 80.05514526367188
+}

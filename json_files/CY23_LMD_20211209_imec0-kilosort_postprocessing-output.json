@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "ks_postprocessing_params": {
+      "deletion_mode": "lowAmpCluster",
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\joshs\\Documents\\ecephys_spike_sorting_packages\\C_Waves-win",
+      "between_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "between_unit_dist_um": 42,
+      "remove_duplicates": true
+    },
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "reorder_lfp_channels": false,
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211209\\000000\\catgt_CY23_LMD_20211209_g0\\CY23_LMD_20211209_g0_imec0\\CY23_LMD_20211209_g0_tcat.imec0.lf.bin",
+      "vertical_site_spacing": 1e-05,
+      "probe_type": "NP1",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211209\\000000\\catgt_CY23_LMD_20211209_g0\\CY23_LMD_20211209_g0_imec0\\CY23_LMD_20211209_g0_tcat.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.0,
+      "num_channels": 385
+    },
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LMD_20211209_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211209\\000000\\catgt_CY23_LMD_20211209_g0\\CY23_LMD_20211209_g0_imec0",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211209\\000000\\catgt_CY23_LMD_20211209_g0\\CY23_LMD_20211209_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211209\\000000"
+    },
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LMD_20211209_imec0-input.json"
+  },
+  "execution_time": 324.6203761100769
+}

@@ -1,0 +1,62 @@
+{
+  "probe_json": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\probe_json.json",
+  "execution_time": 6.996964693069458,
+  "air_channel": 3820,
+  "surface_channel": 3820,
+  "input_parameters": {
+    "depth_estimation_params": {
+      "diff_thresh": -0.06,
+      "save_figure": true,
+      "time_interval": 5.0,
+      "start_time": 10.0,
+      "max_freq": 150,
+      "lo_noise_thresh": 3.0,
+      "air_gap_um": 1000,
+      "n_passes": 10,
+      "freq_range": [
+        0,
+        10
+      ],
+      "saline_range_um": [
+        3700,
+        3800
+      ],
+      "power_thresh": 2.5,
+      "hi_noise_thresh": 50.0,
+      "figure_location": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\probe_depth.png",
+      "nfft": 4096,
+      "smoothing_amount": 5,
+      "skip_s_per_pass": 10
+    },
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211216_imec0-depth_estimation-output.json",
+    "log_level": "ERROR",
+    "directories": {
+      "npx_directory": "Z:\\\\HarveyLab\\\\Tier1\\\\Cindy\\\\EphysData\\\\CY\\\\23\\\\211216\\\\000000",
+      "extracted_data_directory": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0",
+      "kilosort_output_directory": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "ephys_params": {
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\CY23_LLP_20211216_g0_tcat.imec0.ap.bin",
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "lfp_band_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\CY23_LLP_20211216_g0_tcat.imec0.lf.bin"
+    },
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211216_imec0-input.json",
+    "common_files": {
+      "probe_json": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\probe_json.json",
+      "settings_json": "Z:\\\\HarveyLab\\\\Tier1\\\\Cindy\\\\EphysData\\\\CY\\\\23\\\\211216\\\\000000"
+    }
+  }
+}

@@ -62,22 +62,22 @@ def createInputJson(output_file,
                     ):
 
     # hard coded paths to code on your computer and system
-    ecephys_directory = r'D:\ecephys_fork\ecephys_spike_sorting\ecephys_spike_sorting'
+    # ecephys_directory = r'D:\ecephys_fork\ecephys_spike_sorting\ecephys_spike_sorting'
+    ecephys_directory = r'C:\Users\joshs\Documents\GitHub\ecephys_spike_sorting\ecephys_spike_sorting' # JS 12/29
     
-    # location of kilosor respository and kilosort version
-
-    kilosort_repository = r'C:\Users\labadmin\Documents\jic\KS3_fork\Kilosort2'
-
-    KS2ver = '2.0'      # must equal '3.0', '2.5' or '2.0', and match the kiilosort_repository
+    # location of kilosort respository and kilosort version
+    # kilosort_repository = r'C:\Users\labadmin\Documents\jic\KS3_fork\Kilosort2'
+    kilosort_repository = r'C:\Users\joshs\Documents\ecephys_spike_sorting_packages\Kilosort-2.5'
+    KS2ver = '2.5'      # must equal '3.0', '2.5' or '2.0', and match the kiilosort_repository
     
     # KS 3.0 does not yet output pcs.
     if KS2ver == '3.0':
         include_pcs = False  # set to false for KS2ver = '3.0'
     
-    npy_matlab_repository = r'C:\Users\labadmin\Documents\jic\npy-matlab-master'
-    catGTPath = r'C:\Users\labadmin\Documents\jic\CatGT-win'
-    tPrime_path=r'C:\Users\labadmin\Documents\jic\TPrime-win'
-    cWaves_path=r'C:\Users\labadmin\Documents\jic\C_Waves-win'
+    npy_matlab_repository = r'C:\Users\joshs\Documents\ecephys_spike_sorting_packages\npy-matlab'
+    catGTPath = r'C:\Users\joshs\Documents\ecephys_spike_sorting_packages\CatGT-win'
+    tPrime_path=r'C:\Users\joshs\Documents\ecephys_spike_sorting_packages\TPrime-win'
+    cWaves_path=r'C:\Users\joshs\Documents\ecephys_spike_sorting_packages\C_Waves-win'
     
      
     # for config files and kilosort working space

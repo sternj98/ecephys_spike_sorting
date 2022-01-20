@@ -53,7 +53,6 @@ def GetTrialRange(prb, gate, prb_folder):
 def EphysParams(metaFullPath):
     # get ephys params from metadata at meta full path    
     # read metadata
-    
     #first create Path object from string
     metaPath = Path(metaFullPath)
     meta = SGLXMeta.readMeta(metaPath)

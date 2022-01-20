@@ -550,7 +550,6 @@ def MetaToCoords(metaFullPath, outType, badChan= np.zeros((0), dtype = 'int'), d
 # output a file set by outType
 #
 def main():
-    
     outType = 1
     
     # Get file from user

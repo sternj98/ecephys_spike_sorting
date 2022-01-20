@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "catGT_helper_params": {
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,0 -XD=1,0,0 -XD=0,0,0",
+      "trigger_string": "0,0",
+      "run_name": "CY23_LMD_20211209",
+      "probe_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar",
+      "loccar_inner": 2,
+      "gate_string": "0",
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\joshs\\Documents\\ecephys_spike_sorting_packages\\CatGT-win"
+    },
+    "directories": {
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211209\\000000",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211209\\000000",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211209\\000000"
+    },
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LMD_202112090_CatGT-output.json",
+    "log_level": "ERROR",
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211209\\000000\\CY23_LMD_20211209_g0\\CY23_LMD_20211209_g0_imec0\\CY23_LMD_20211209_g0_t0.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211209\\000000\\CY23_LMD_20211209_g0\\CY23_LMD_20211209_g0_imec0\\CY23_LMD_20211209_g0_t0.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.0
+    },
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LMD_202112090_CatGT-input.json"
+  },
+  "execution_time": 1130.4357690811157
+}

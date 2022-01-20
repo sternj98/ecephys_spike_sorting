@@ -1,0 +1,43 @@
+{
+  "execution_time": 1486.5224182605743,
+  "input_parameters": {
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_202112150_CatGT-output.json",
+    "directories": {
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211215\\000000",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211215\\000000",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\23\\211215\\000000"
+    },
+    "catGT_helper_params": {
+      "trigger_string": "0,0",
+      "car_mode": "gblcar",
+      "loccar_inner": 2,
+      "run_name": "CY23_LLP_20211215",
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,0 -XD=1,0,0 -XD=0,0,0",
+      "stream_string": "-ap -ni -lf",
+      "probe_string": "0",
+      "catGTPath": "C:\\Users\\joshs\\Documents\\ecephys_spike_sorting_packages\\CatGT-win",
+      "loccar_outer": 8,
+      "gate_string": "0"
+    },
+    "ephys_params": {
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211215\\000000\\CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\CY23_LLP_20211215_g0_t0.imec0.lf.bin",
+      "probe_type": "NP1",
+      "reference_channels": [
+        191
+      ],
+      "cluster_group_file_name": "cluster_group.tsv",
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "sample_rate": 30000.0,
+      "lfp_sample_rate": 2500.0,
+      "bit_volts": 2.34375,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\23\\211215\\000000\\CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\CY23_LLP_20211215_g0_t0.imec0.ap.bin"
+    },
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_202112150_CatGT-input.json"
+  }
+}

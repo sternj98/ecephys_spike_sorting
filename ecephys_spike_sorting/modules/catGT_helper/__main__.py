@@ -83,14 +83,16 @@ def run_CatGT(args):
         catgt_logName = catgt_logName + '_ni'
     catgt_logName = catgt_logName + '_CatGT.log'
     
-    
     catgt_runDir = os.path.join(args['directories']['extracted_data_directory'],catgt_runName)
+    if not os.path.exists(catgt_runDir): # added 12/31/21 JS
+        os.makedirs(catgt_runDir)
+
     shutil.copyfile(os.path.join(logPath,logName), \
                     os.path.join(catgt_runDir,catgt_logName))
-    
+        
 
     print('total time: ' + str(np.around(execution_time,2)) + ' seconds')
-    
+    print("got here too")
     return {"execution_time" : execution_time} # output manifest
 
 

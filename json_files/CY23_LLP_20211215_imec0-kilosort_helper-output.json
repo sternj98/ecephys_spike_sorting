@@ -1,0 +1,89 @@
+{
+  "kilosort_commit_hash": "repository not available",
+  "nTemplate": 530,
+  "execution_time": 3451.8314633369446,
+  "kilosort_commit_date": "repository not available",
+  "mask_channels": [
+    191,
+    285
+  ],
+  "nTot": 6976799,
+  "input_parameters": {
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211215_imec0-kilosort_helper-output.json",
+    "log_level": "ERROR",
+    "kilosort_helper_params": {
+      "kilosort2_params": {
+        "reorder": 1,
+        "copy_fproc": 0,
+        "trange": "[0 Inf]",
+        "saveRez": 1,
+        "nPCs": 3,
+        "finalSplits": 1,
+        "fproc": "'D:/kilosort_datatemp/temp_wh.dat'",
+        "momentum": "[20 400]",
+        "ntbuff": 64,
+        "gain": 2.34375,
+        "sigmaMask": 30,
+        "lam": 10,
+        "AUCsplit": 0.9,
+        "nskip": 25,
+        "nSkipCov": 25,
+        "LTseed": 1,
+        "Th": "[10,4]",
+        "scaleproc": 200,
+        "whiteningRange": 32,
+        "ThPre": 8,
+        "fshigh": 150,
+        "CSBseed": 1,
+        "nNeighbors": 32,
+        "spkTh": -6,
+        "KSver": "2.5",
+        "NT": "64*1024 + ops.ntbuff",
+        "minFR": 0.02,
+        "useRAM": 0,
+        "minfr_goodchannels": 0.1,
+        "nfilt_factor": 4,
+        "remDup": 0,
+        "GPU": 1,
+        "labelGood": 1,
+        "chanMap": "'chanMap.mat'",
+        "CAR": 0
+      },
+      "matlab_home_directory": "D:\\kilosort_datatemp",
+      "surface_channel_buffer": 15,
+      "spikeGLX_data": true,
+      "kilosort_version": 2,
+      "kilosort_repository": "C:\\Users\\joshs\\Documents\\ecephys_spike_sorting_packages\\Kilosort-2.5",
+      "ks_make_copy": true,
+      "npy_matlab_repository": "C:\\Users\\joshs\\Documents\\ecephys_spike_sorting_packages\\npy-matlab"
+    },
+    "directories": {
+      "kilosort_output_directory": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\imec0_ks2",
+      "npx_directory": "Z:\\\\HarveyLab\\\\Tier1\\\\Cindy\\\\EphysData\\\\CY\\\\23\\\\211215\\\\000000",
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0"
+    },
+    "common_files": {
+      "settings_json": "Z:\\\\HarveyLab\\\\Tier1\\\\Cindy\\\\EphysData\\\\CY\\\\23\\\\211215\\\\000000",
+      "probe_json": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\probe_json.json"
+    },
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_band_file": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\CY23_LLP_20211215_g0_tcat.imec0.lf.bin",
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "probe_type": "NP1",
+      "ap_band_file": "D:\\ecephys_spike_sorting_output\\CY\\23\\211215\\000000\\catgt_CY23_LLP_20211215_g0\\CY23_LLP_20211215_g0_imec0\\CY23_LLP_20211215_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false
+    },
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211215_imec0-input.json"
+  }
+}

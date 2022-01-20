@@ -1,0 +1,51 @@
+{
+  "input_parameters": {
+    "directories": {
+      "npx_directory": "Z:\\\\HarveyLab\\\\Tier1\\\\Cindy\\\\EphysData\\\\CY\\\\23\\\\211216\\\\000000",
+      "ecephys_directory": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "kilosort_output_directory": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0"
+    },
+    "waveform_metrics": {
+      "waveform_metrics_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "quality_metrics_params": {
+      "max_radius_um": 68,
+      "tbin_sec": 0.001,
+      "n_neighbors": 4,
+      "include_pcs": true,
+      "max_spikes_for_nn": 10000,
+      "drift_metrics_min_spikes_per_interval": 10,
+      "drift_metrics_interval_s": 51.0,
+      "max_spikes_for_unit": 500,
+      "min_isi": 0.000166,
+      "isi_threshold": 0.001,
+      "n_silhouette": 10000
+    },
+    "input_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211216_imec0-input.json",
+    "output_json": "C:\\Users\\joshs\\Documents\\GitHub\\ecephys_spike_sorting\\json_files\\CY23_LLP_20211216_imec0-quality_metrics-output.json",
+    "log_level": "ERROR",
+    "ephys_params": {
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\CY23_LLP_20211216_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "num_channels": 385,
+      "ap_band_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\CY23_LLP_20211216_g0_tcat.imec0.ap.bin",
+      "probe_type": "NP1",
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\imec0_ks2\\metrics.csv"
+    }
+  },
+  "execution_time": 3354.169945001602,
+  "quality_metrics_output_file": "D:\\\\ecephys_spike_sorting_output\\\\CY\\\\23\\\\211216\\\\000000\\\\test_events\\catgt_CY23_LLP_20211216_g0\\CY23_LLP_20211216_g0_imec0\\imec0_ks2\\metrics.csv"
+}

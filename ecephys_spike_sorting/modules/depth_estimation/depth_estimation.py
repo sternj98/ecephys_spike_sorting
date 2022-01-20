@@ -222,14 +222,22 @@ def plot_results(chunk,
     # plt.imshow(np.flipud(np.log10(power[in_range,:]).T), aspect='auto')
     power[:,:] = power[:,chunk_order]
     plt.imshow(np.log10(power[in_range,:]).T, aspect='auto')
+    # save the data
+    LFP_freq_pwr_save_path = figure_location[:-len("probe_depth.png")] + "LFP_freq_pwr.txt"
+    np.savetxt(LFP_freq_pwr_save_path,np.log10(power[in_range,:]).T)
+    
 
     y_sorted = chan_y[chunk_order]
     plt.subplot(4,1,3)
     plt.plot(y_sorted, values[chunk_order]) 
     plt.plot([chan_y[0],chan_y[nchannels-1]],[power_thresh,power_thresh],'--k')
     
-    surface_index = np.min(np.where(y_sorted > surface_y))
-    plt.plot([surface_index, surface_index],[-2, 2],'--r')
+    if len(np.where(y_sorted > surface_y)[0]) > 0:
+        print(np.where(y_sorted > surface_y))
+        surface_index = np.min(np.where(y_sorted > surface_y))
+        plt.plot([surface_index, surface_index],[-2, 2],'--r')
+    else: 
+        print("didn't find surface index!")
     
     plt.subplot(4,1,4)
     plt.plot(y_sorted[0:nchannels-1], np.diff(values[chunk_order]))

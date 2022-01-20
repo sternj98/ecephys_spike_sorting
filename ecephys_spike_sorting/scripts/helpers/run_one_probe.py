@@ -26,8 +26,10 @@ def runOne( session_id,
         subprocess.check_call(command.split(' '))  
     
     # copy module json file to data directory as record of the input parameters 
+    if not os.path.exists(data_directory): # added 12/31/21 JS
+        os.makedirs(data_directory)
     shutil.copy(module_input_json, os.path.join(data_directory, session_id + '-input.json'))
-    
+    print("made it past json copy")
     for module in modules:
         output_json = os.path.join(json_directory, session_id + '-' + module + '-output.json')  
         command = sys.executable + " -W ignore -m ecephys_spike_sorting.modules." + module + " --input_json " + module_input_json \
