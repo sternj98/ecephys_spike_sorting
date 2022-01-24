@@ -9,6 +9,8 @@ from pathlib import Path
 import numpy as np
 
 from ...common.utils import catGT_ex_params_from_str
+from ...common.SGLXMetaToCoords import readMeta
+
 
 
 def call_TPrime(args):
@@ -32,6 +34,7 @@ def call_TPrime(args):
     
     # build paths to the input data for TPrime
     catGT_dest = args['directories']['extracted_data_directory']
+
     run_name = args['catGT_helper_params']['run_name'] + '_g' + args['catGT_helper_params']['gate_string']
     run_dir_name = 'catgt_' + run_name
     prb_dir_prefix = run_name + '_imec'
@@ -48,6 +51,18 @@ def call_TPrime(args):
 
     ni_ex_string = args['tPrime_helper_params']['ni_ex_list']       
     ni_ex_list = list()
+
+    # add a list of sample times from NI to map behavioral data streams into the imec timeframe
+    ni_meta_name = run_name + '_tcat.nidq.meta'
+    ni_meta_path = Path(os.path.join(run_directory,ni_meta_name))
+    meta = readMeta(ni_meta_path)
+    # from sglx utils
+    nChan = int(meta['nSavedChans'])
+    nFileSamp = int(int(meta['fileSizeBytes'])/(2*nChan))
+    samp_rate = float(meta['niSampRate'])
+    ni_sample_times = np.linspace(0,nFileSamp / samp_rate,nFileSamp)
+    ni_sample_times_fname = os.path.join(run_directory,run_name + '_ni_sample_times_sec.npy')
+    np.save(ni_sample_times_fname,ni_sample_times)
     
     if ni_ex_string != '':
         # find start points all instances of '-X' in ni_ex_string
@@ -65,15 +80,16 @@ def call_TPrime(args):
         match_XD_str = run_name + '_tcat.nidq.XD_*.txt'
         match_iXA_str = run_name + '_tcat.nidq.iXA_*.txt'
         match_iXD_str = run_name + '_tcat.nidq.iXD_*.txt'
-        match_times_str = run_name + '_tcat.nidq.times.npy'
+        match_times_str = run_name + '_tcat.nidq.times.npy' 
+        match_sample_times_str = run_name + '_ni_sample_times_sec.npy'
         file_list = os.listdir(run_directory)
         ni_ex_files = fnmatch.filter(file_list,match_XA_str) + \
                       fnmatch.filter(file_list,match_XD_str) + \
                       fnmatch.filter(file_list,match_iXA_str) + \
                       fnmatch.filter(file_list,match_iXD_str) + \
-                      fnmatch.filter(file_list,match_times_str)
-                          
-    
+                      fnmatch.filter(file_list,match_times_str) + \
+                      [run_name + '_ni_sample_times_sec.npy'] # sample times we just added
+
     im_ex_string = args['tPrime_helper_params']['im_ex_list']
     im_ex_list = list()
     
@@ -89,6 +105,7 @@ def call_TPrime(args):
     
     
     toStream_type, toStream_prb, toStream_ex_name = catGT_ex_params_from_str(toStream_params)
+    print("toStream_type:",toStream_type)
 
     from_list = list()       # list of files of sync edges for streams to translate to reference
     events_list = list()     # list of files of event times to translate to reference
