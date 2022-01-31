@@ -140,7 +140,7 @@ def run_ecephys(npx_directory,results_directory):
     # extract param string for psth events -- copy the CatGT params used to extract
     # events that should be exported with the phy output for PSTH plots
     # If not using, remove psth_events from the list of modules
-    event_ex_param_str = 'XD=0,1,50' # this is a CatGT extracted edges stream
+    event_ex_param_str = '-XD=-1,0,500 -XD=-1,1,0 -XA=3,2,0,0' # this is a CatGT extracted edges stream
 
     # -----------------
     # TPrime parameters
@@ -264,7 +264,7 @@ def run_ecephys(npx_directory,results_directory):
             continuous_file = os.path.join(input_data_directory, fileName)
             metaName = run_str + '_t' + repr(first_trig) + '.imec' + prb + '.ap.meta'
             input_meta_fullpath = os.path.join(input_data_directory, metaName)
-                    
+
             info = createInputJson(catGT_input_json[i], npx_directory=npx_directory, 
                                         continuous_file = continuous_file,
                                         kilosort_output_directory=catGT_dest,
@@ -392,9 +392,9 @@ def run_ecephys(npx_directory,results_directory):
                                             niStream_sync_params = niStream_sync_params,
                                             tPrime_3A = False,
                                             toStream_path_3A = ' ',
-                                            fromStream_list_3A = list()
+                                            fromStream_list_3A = list(),
+                                            gate_string = gate 
                                             ) 
-
             command = sys.executable + " -W ignore -m ecephys_spike_sorting.modules." + 'tPrime_helper' + " --input_json " + input_json \
                         + " --output_json " + output_json
             subprocess.check_call(command.split(' '))  

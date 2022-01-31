@@ -72,7 +72,7 @@ def calculate_metrics(spike_times, spike_clusters, spike_templates, amplitudes, 
 #   many of these cluster ID's may have no spikes assigned, 
 #   but arrays of metrics need to be sized for the full set
     total_units = np.max(spike_clusters) + 1
-    print('total unite: ' + repr(total_units))
+    print('total units: ' + repr(total_units))
     
     template_ids = np.zeros((total_units,), dtype='uint16')
     spike_templates = np.squeeze(spike_templates)
