@@ -7,8 +7,10 @@ ks_dj_pipeline_path = r'C:\Users\joshs\Documents\GitHub\ks-dj-pipeline'
 sys.path.append(ks_dj_pipeline_path)
 # now import datajoint stuff
 from dj_ephys_utils import reformat_np_dir,update_Date
-from CY_schema_table import BehaSession
-from JS_ephys_tables import EphysSession, SpikeSortingResults
+from CY_schema_table import *
+from JS_ephys_tables import * 
+from dynChoice import *
+
 
 # reformat sglx sessions within DJ-compatible nested directory structure
 reformat_np_dir()
@@ -17,6 +19,7 @@ update_Date()
 # update BehaSession and EphysSession tables
 BehaSession().populate()
 EphysSession().populate()
+SwitchingBehavior().populate()
 
 results_directory = r'Z:\HarveyLab\Tier1\Cindy\ProcessedEphys'
 
@@ -46,3 +49,8 @@ for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths):
         print("Inserted new entry in SpikeSortingResults: ",new_processed_entry) 
     else: 
         print("skipping this entry due to lower NI sample rate: ", this_key)
+
+# Update imec-synced behavior data
+InterpolatedPosition().populate()
+SyncBehaData().populate()
+DynamicChoice().populate()
