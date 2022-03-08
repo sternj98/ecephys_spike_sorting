@@ -2,8 +2,14 @@ from sglx_multi_run_pipeline_js import run_ecephys
 import sys 
 import os
 import datetime
+import socket
+current_pc = socket.gethostname()
 
-ks_dj_pipeline_path = r'C:\Users\joshs\Documents\GitHub\ks-dj-pipeline'
+if current_pc =='MNB-HARV-D00969':
+    ks_dj_pipeline_path = r'C:\Users\xinto\Documents\ks-dj-pipeline'
+else:
+    ks_dj_pipeline_path = r'C:\Users\joshs\Documents\GitHub\ks-dj-pipeline'
+
 sys.path.append(ks_dj_pipeline_path)
 # now import datajoint stuff
 from dj_ephys_utils import reformat_np_dir,update_Date

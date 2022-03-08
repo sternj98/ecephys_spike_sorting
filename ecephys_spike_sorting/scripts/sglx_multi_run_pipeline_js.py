@@ -76,9 +76,14 @@ def run_ecephys(npx_directory,results_directory,
     session_name = session_name_gx_tx[:session_name_gx_tx.index('_g')]
     gate = session_name_gx_tx[session_name_gx_tx.index('_g')+2]
     trigger = session_name_gx_tx[session_name_gx_tx.index('_t')+2]
+    probe_idx = [x[-1] for x in os.listdir(npx_directory_full) if x[-5:-1] == "imec" ]
+    if len(probe_idx)>1:
+        all_probes = ", ".join(probe_idx)
+    else:
+        all_probes = probe_idx[0]
 
     run_specs = [
-                            [session_name, gate, 'start,end','0', ['thalamus'] ]
+                            [session_name, gate, 'start,end',all_probes, ['thalamus'] ]
     ]
 
     # Name for log file for this pipeline run. Log file will be saved in the
