@@ -1,0 +1,50 @@
+{
+  "execution_time": 231.8574092388153,
+  "input_parameters": {
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_20220209_imec0-input.json",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\CY18_LMD_20220209_g0_tcat.imec0.lf.bin",
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.196653,
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\CY18_LMD_20220209_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "log_level": "ERROR",
+    "waveform_metrics": {
+      "waveform_metrics_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "mean_waveform_params": {
+      "spikes_per_epoch": 1000,
+      "num_epochs": 1,
+      "mean_waveforms_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\imec0_ks2\\mean_waveforms.npy",
+      "spread_threshold": 0.12,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "pre_samples": 20,
+      "upsampling_factor": 2.4390243902439024,
+      "use_C_Waves": true,
+      "snr_radius": 8,
+      "samples_per_spike": 82,
+      "site_range": 16
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\imec0_ks2\\metrics.csv"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_20220209_imec0-mean_waveforms-output.json"
+  }
+}

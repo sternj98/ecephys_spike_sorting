@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "catGT_helper_params": {
+      "gate_string": "0",
+      "probe_string": "0",
+      "car_mode": "gblcar",
+      "loccar_outer": 8,
+      "stream_string": "-ap -ni -lf",
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0 -XA=3,2,0,0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "loccar_inner": 2,
+      "run_name": "CY18_LMD_20220209",
+      "trigger_string": "0,0"
+    },
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "reorder_lfp_channels": false,
+      "lfp_sample_rate": 2500.0,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\CY18_LMD_20220209_g0_t0.imec0.lf.bin",
+      "vertical_site_spacing": 1e-05,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\CY18_LMD_20220209_g0_t0.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "num_channels": 385,
+      "sample_rate": 30000.196653,
+      "template_zero_padding": 21
+    },
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "kilosort_output_directory": "E:\\ecephys_out",
+      "extracted_data_directory": "E:\\ecephys_out",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_202202090_CatGT-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_202202090_CatGT-output.json"
+  },
+  "execution_time": 1693.6750633716583
+}

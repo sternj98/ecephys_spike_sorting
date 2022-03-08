@@ -1,0 +1,89 @@
+{
+  "nTemplate": 477,
+  "kilosort_commit_hash": "repository not available",
+  "mask_channels": [
+    0,
+    191
+  ],
+  "nTot": 8800808,
+  "kilosort_commit_date": "repository not available",
+  "input_parameters": {
+    "ephys_params": {
+      "sample_rate": 30000.196653,
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "probe_type": "NP1",
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY18_LLP_20220202_g0\\CY18_LLP_20220202_g0_imec0\\CY18_LLP_20220202_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY18_LLP_20220202_g0\\CY18_LLP_20220202_g0_imec0\\CY18_LLP_20220202_g0_tcat.imec0.lf.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0
+    },
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\18\\220202\\171747",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY18_LLP_20220202_g0\\CY18_LLP_20220202_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "E:\\ecephys_out\\catgt_CY18_LLP_20220202_g0\\CY18_LLP_20220202_g0_imec0",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LLP_20220202_imec0-kilosort_helper-output.json",
+    "common_files": {
+      "settings_json": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\18\\220202\\171747",
+      "probe_json": "E:\\ecephys_out\\catgt_CY18_LLP_20220202_g0\\CY18_LLP_20220202_g0_imec0\\probe_json.json"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LLP_20220202_imec0-input.json",
+    "kilosort_helper_params": {
+      "npy_matlab_repository": "C:\\Users\\xinto\\Documents\\npy-matlab",
+      "kilosort_version": 2,
+      "spikeGLX_data": true,
+      "ks_make_copy": true,
+      "kilosort_repository": "C:\\Users\\xinto\\Documents\\Kilosort-2.5",
+      "surface_channel_buffer": 15,
+      "matlab_home_directory": "D:\\kilosort_datatemp",
+      "kilosort2_params": {
+        "gain": 2.34375,
+        "saveRez": 1,
+        "spkTh": -6,
+        "minfr_goodchannels": 0.1,
+        "trange": "[0 Inf]",
+        "lam": 10,
+        "copy_fproc": 0,
+        "reorder": 1,
+        "nskip": 25,
+        "Th": "[10,4]",
+        "CSBseed": 1,
+        "minFR": 0.02,
+        "CAR": 0,
+        "useRAM": 0,
+        "remDup": 0,
+        "AUCsplit": 0.9,
+        "chanMap": "'chanMap.mat'",
+        "GPU": 1,
+        "momentum": "[20 400]",
+        "nPCs": 3,
+        "finalSplits": 1,
+        "nfilt_factor": 4,
+        "sigmaMask": 30,
+        "fproc": "'D:/kilosort_datatemp/temp_wh.dat'",
+        "scaleproc": 200,
+        "labelGood": 1,
+        "whiteningRange": 32,
+        "LTseed": 1,
+        "NT": "64*1024 + ops.ntbuff",
+        "ThPre": 8,
+        "nSkipCov": 25,
+        "KSver": "2.5",
+        "fshigh": 150,
+        "nNeighbors": 32,
+        "ntbuff": 64
+      }
+    }
+  },
+  "execution_time": 5051.065657377243
+}

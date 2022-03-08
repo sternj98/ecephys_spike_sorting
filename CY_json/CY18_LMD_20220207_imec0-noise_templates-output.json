@@ -1,0 +1,54 @@
+{
+  "execution_time": 79.57143640518188,
+  "input_parameters": {
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_20220207_imec0-noise_templates-output.json",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_20220207_imec0-input.json",
+    "ephys_params": {
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220207_g0\\CY18_LMD_20220207_g0_imec0\\CY18_LMD_20220207_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220207_g0\\CY18_LMD_20220207_g0_imec0\\CY18_LMD_20220207_g0_tcat.imec0.lf.bin",
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.196653,
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05
+    },
+    "noise_waveform_params": {
+      "wavelet_index": 2,
+      "peak_height_thresh": 0.2,
+      "peak_locs_std_thresh": 3.5,
+      "max_temporal_peak_location": 30,
+      "peak_prominence_thresh": 0.2,
+      "mid_spread_threshold": 16,
+      "min_wavelet_peak_loc": 15,
+      "classifier_path": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting\\modules\\noise_templates\\rf_classifier.pkl",
+      "smoothed_template_filter_width": 2,
+      "min_wavelet_peak_height": 0.0,
+      "max_spread_threshold": 25,
+      "max_wavelet_peak_loc": 25,
+      "peak_channel_range": 24,
+      "channel_amplitude_thresh": 0.25,
+      "min_temporal_peak_location": 10,
+      "template_amplitude_threshold": 0.2,
+      "multiprocessing_worker_count": 10,
+      "smoothed_template_amplitude_threshold": 0.2,
+      "min_spread_threshold": 2,
+      "template_shape_channel_range": 12,
+      "use_random_forest": false
+    },
+    "directories": {
+      "npx_directory": "C:\\Users\\xinto\\Desktop",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "E:\\ecephys_out\\catgt_CY18_LMD_20220207_g0\\CY18_LMD_20220207_g0_imec0",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY18_LMD_20220207_g0\\CY18_LMD_20220207_g0_imec0\\imec0_ks2"
+    }
+  }
+}

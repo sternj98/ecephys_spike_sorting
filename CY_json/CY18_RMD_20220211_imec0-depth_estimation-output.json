@@ -1,0 +1,62 @@
+{
+  "input_parameters": {
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\18\\220211\\155709",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\imec0_ks2"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_RMD_20220211_imec0-depth_estimation-output.json",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_RMD_20220211_imec0-input.json",
+    "ephys_params": {
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\CY18_RMD_20220211_g0_tcat.imec0.lf.bin",
+      "template_zero_padding": 21,
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\CY18_RMD_20220211_g0_tcat.imec0.ap.bin",
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.194142,
+      "reorder_lfp_channels": false,
+      "lfp_sample_rate": 2500.0,
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05
+    },
+    "common_files": {
+      "settings_json": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\18\\220211\\155709",
+      "probe_json": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\probe_json.json"
+    },
+    "depth_estimation_params": {
+      "lo_noise_thresh": 3.0,
+      "freq_range": [
+        0,
+        10
+      ],
+      "figure_location": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\probe_depth.png",
+      "save_figure": true,
+      "max_freq": 150,
+      "time_interval": 5.0,
+      "power_thresh": 2.5,
+      "air_gap_um": 1000,
+      "smoothing_amount": 5,
+      "saline_range_um": [
+        3700,
+        3800
+      ],
+      "hi_noise_thresh": 50.0,
+      "nfft": 4096,
+      "start_time": 10.0,
+      "diff_thresh": -0.06,
+      "n_passes": 10,
+      "skip_s_per_pass": 10
+    }
+  },
+  "air_channel": 3820,
+  "surface_channel": 3680,
+  "probe_json": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\probe_json.json",
+  "execution_time": 6.5567710399627686
+}

@@ -1,0 +1,54 @@
+{
+  "input_parameters": {
+    "tPrime_helper_params": {
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "im_ex_list": " -SY=0,-1,6,500",
+      "ni_ex_list": "-XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0 -XA=3,2,0,0",
+      "toStream_path_3A": " ",
+      "toStream_sync_params": "SY=0,-1,6,500",
+      "sync_period": 1.0,
+      "fromStream_list_3A": [],
+      "ni_sync_params": "XD=-1,0,500",
+      "tPrime_3A": false
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_20220209_TPrime-input.json",
+    "catGT_helper_params": {
+      "loccar_outer": 8,
+      "stream_string": "-ap",
+      "gate_string": "0",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "trigger_string": "0,0",
+      "run_name": "CY18_LMD_20220209",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "loccar_inner": 2,
+      "car_mode": "gbldmx",
+      "probe_string": "0"
+    },
+    "directories": {
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "E:\\ecephys_out",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\imec0_ks2"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_LMD_20220209_TPrime-output.json",
+    "ephys_params": {
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\CY18_LMD_20220209_g0_tcat.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "sample_rate": 30000.196653,
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY18_LMD_20220209_g0\\CY18_LMD_20220209_g0_imec0\\CY18_LMD_20220209_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ]
+    },
+    "log_level": "ERROR"
+  },
+  "execution_time": 2.07718825340271
+}

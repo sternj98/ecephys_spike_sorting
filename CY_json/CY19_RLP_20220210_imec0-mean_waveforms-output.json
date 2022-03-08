@@ -1,0 +1,50 @@
+{
+  "input_parameters": {
+    "mean_waveform_params": {
+      "upsampling_factor": 2.4390243902439024,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "site_range": 16,
+      "num_epochs": 1,
+      "pre_samples": 20,
+      "mean_waveforms_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\imec0_ks2\\mean_waveforms.npy",
+      "spikes_per_epoch": 1000,
+      "spread_threshold": 0.12,
+      "use_C_Waves": true,
+      "snr_radius": 8,
+      "samples_per_spike": 82
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY19_RLP_20220210_imec0-mean_waveforms-output.json",
+    "cluster_metrics": {
+      "cluster_metrics_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\imec0_ks2\\metrics.csv"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY19_RLP_20220210_imec0-input.json",
+    "waveform_metrics": {
+      "waveform_metrics_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "ephys_params": {
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\CY19_RLP_20220210_g0_tcat.imec0.lf.bin",
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "sample_rate": 30000.196653,
+      "reorder_lfp_channels": false,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\CY19_RLP_20220210_g0_tcat.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "log_level": "ERROR",
+    "directories": {
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\imec0_ks2",
+      "npx_directory": "C:\\Users\\xinto\\Desktop",
+      "extracted_data_directory": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    }
+  },
+  "execution_time": 77.02252984046936
+}

@@ -1,0 +1,54 @@
+{
+  "execution_time": 0.8175477981567383,
+  "input_parameters": {
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY19_RLP_20220210_TPrime-output.json",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\CY19_RLP_20220210_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\CY19_RLP_20220210_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "template_zero_padding": 21,
+      "sample_rate": 30000.196653,
+      "lfp_sample_rate": 2500.0,
+      "num_channels": 385,
+      "reference_channels": [
+        191
+      ]
+    },
+    "directories": {
+      "extracted_data_directory": "E:\\ecephys_out",
+      "npx_directory": "C:\\Users\\xinto\\Desktop",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\imec0_ks2"
+    },
+    "log_level": "ERROR",
+    "catGT_helper_params": {
+      "gate_string": "0",
+      "trigger_string": "0,0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "probe_string": "0",
+      "run_name": "CY19_RLP_20220210",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "stream_string": "-ap",
+      "car_mode": "gbldmx",
+      "loccar_outer": 8
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY19_RLP_20220210_TPrime-input.json",
+    "tPrime_helper_params": {
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "fromStream_list_3A": [],
+      "sync_period": 1.0,
+      "toStream_sync_params": "SY=0,-1,6,500",
+      "ni_ex_list": "-XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0 -XA=3,2,0,0",
+      "im_ex_list": " -SY=0,-1,6,500",
+      "tPrime_3A": false,
+      "ni_sync_params": "XD=-1,0,500",
+      "toStream_path_3A": " "
+    }
+  }
+}

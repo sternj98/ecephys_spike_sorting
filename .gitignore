@@ -82,3 +82,6 @@ target/
 
 # macOS
 .DS_Store
+
+# config for pc
+ecephys_spike_sorting/scripts/create_input_json.py

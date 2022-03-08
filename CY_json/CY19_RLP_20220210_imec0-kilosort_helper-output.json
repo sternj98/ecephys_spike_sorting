@@ -1,0 +1,86 @@
+{
+  "nTemplate": 363,
+  "nTot": 1086792,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY19_RLP_20220210_imec0-input.json",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "sample_rate": 30000.196653,
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\CY19_RLP_20220210_g0_tcat.imec0.lf.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reorder_lfp_channels": false,
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\CY19_RLP_20220210_g0_tcat.imec0.ap.bin"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY19_RLP_20220210_imec0-kilosort_helper-output.json",
+    "common_files": {
+      "settings_json": "C:\\Users\\xinto\\Desktop",
+      "probe_json": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\probe_json.json"
+    },
+    "kilosort_helper_params": {
+      "kilosort2_params": {
+        "nPCs": 3,
+        "scaleproc": 200,
+        "minfr_goodchannels": 0.1,
+        "reorder": 1,
+        "whiteningRange": 32,
+        "nSkipCov": 25,
+        "CSBseed": 1,
+        "Th": "[10,4]",
+        "remDup": 0,
+        "NT": "64*1024 + ops.ntbuff",
+        "useRAM": 0,
+        "nNeighbors": 32,
+        "GPU": 1,
+        "gain": 2.34375,
+        "ntbuff": 64,
+        "finalSplits": 1,
+        "nskip": 25,
+        "KSver": "2.5",
+        "chanMap": "'chanMap.mat'",
+        "AUCsplit": 0.9,
+        "LTseed": 1,
+        "minFR": 0.02,
+        "fproc": "'D:/kilosort_datatemp/temp_wh.dat'",
+        "momentum": "[20 400]",
+        "ThPre": 8,
+        "CAR": 0,
+        "fshigh": 150,
+        "spkTh": -6,
+        "trange": "[0 Inf]",
+        "copy_fproc": 0,
+        "lam": 10,
+        "sigmaMask": 30,
+        "nfilt_factor": 4,
+        "saveRez": 1,
+        "labelGood": 1
+      },
+      "kilosort_version": 2,
+      "kilosort_repository": "C:\\Users\\xinto\\Documents\\Kilosort-2.5",
+      "surface_channel_buffer": 15,
+      "spikeGLX_data": true,
+      "matlab_home_directory": "D:\\kilosort_datatemp",
+      "ks_make_copy": true,
+      "npy_matlab_repository": "C:\\Users\\xinto\\Documents\\npy-matlab"
+    },
+    "directories": {
+      "extracted_data_directory": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY19_RLP_20220210_g0\\CY19_RLP_20220210_g0_imec0\\imec0_ks2",
+      "npx_directory": "C:\\Users\\xinto\\Desktop",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    }
+  },
+  "execution_time": 2291.2668886184692,
+  "mask_channels": [],
+  "kilosort_commit_date": "repository not available",
+  "kilosort_commit_hash": "repository not available"
+}

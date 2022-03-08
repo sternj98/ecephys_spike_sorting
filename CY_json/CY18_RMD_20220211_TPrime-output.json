@@ -1,0 +1,54 @@
+{
+  "execution_time": 2.7141990661621094,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_RMD_20220211_TPrime-input.json",
+    "catGT_helper_params": {
+      "run_name": "CY18_RMD_20220211",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "gate_string": "0",
+      "car_mode": "gbldmx",
+      "loccar_inner": 2,
+      "loccar_outer": 8,
+      "trigger_string": "0,0",
+      "stream_string": "-ap",
+      "probe_string": "0"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY18_RMD_20220211_TPrime-output.json",
+    "tPrime_helper_params": {
+      "toStream_sync_params": "SY=0,-1,6,500",
+      "toStream_path_3A": " ",
+      "fromStream_list_3A": [],
+      "tPrime_3A": false,
+      "ni_ex_list": "-XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0 -XA=3,2,0,0",
+      "ni_sync_params": "XD=-1,0,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "sync_period": 1.0,
+      "im_ex_list": " -SY=0,-1,6,500"
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\18\\220211\\155709",
+      "extracted_data_directory": "E:\\ecephys_out",
+      "kilosort_output_directory": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\imec0_ks2"
+    },
+    "ephys_params": {
+      "lfp_band_file": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\CY18_RMD_20220211_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "ap_band_file": "E:\\ecephys_out\\catgt_CY18_RMD_20220211_g0\\CY18_RMD_20220211_g0_imec0\\CY18_RMD_20220211_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.194142,
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0
+    }
+  }
+}
