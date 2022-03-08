@@ -26,11 +26,16 @@ results_directory = r'Z:\HarveyLab\Tier1\Cindy\ProcessedEphys'
 # Look for ephys sessions that don't have spikesorting results
 session_keys , ephys_paths = ((EphysSession() & "probe = 'NP1'") - SpikeSortingResults()).fetch("KEY","ephys_path")
 
+
+modules = ['kilosort_helper','kilosort_postprocessing']
+run_CatGT = True
+runTPrime = False
+
 print("Now beginning ecephys processing of ephys sessions that have not been spike-sorted yet")
 for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths): 
     if this_key['session_date'] >= datetime.date(2022, 1, 13): 
         print("Processing session at: ",this_unprocessed_np_path)
-        run_ecephys(this_unprocessed_np_path,results_directory)
+        run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT, runTPrime = runTPrime)
 
         # file formatting from sglx_multi_run_pipeline_js.py
         npx_directory_full = os.path.join(this_unprocessed_np_path,os.listdir(this_unprocessed_np_path)[0])
@@ -51,6 +56,6 @@ for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths):
         print("skipping this entry due to lower NI sample rate: ", this_key)
 
 # Update imec-synced behavior data
-InterpolatedPosition().populate()
-SyncBehaData().populate()
-DynamicChoice().populate()
+# InterpolatedPosition().populate()
+# SyncBehaData().populate()
+# DynamicChoice().populate()
