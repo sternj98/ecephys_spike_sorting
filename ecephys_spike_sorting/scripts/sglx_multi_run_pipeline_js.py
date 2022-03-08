@@ -6,7 +6,8 @@ from helpers import SpikeGLX_utils
 from helpers import log_from_json
 from helpers import run_one_probe
 from ecephys_spike_sorting.scripts.create_input_json import createInputJson
-
+import socket
+current_pc = socket.gethostname()
 
 # script to run CatGT, KS2, postprocessing and TPrime on data collected using
 # SpikeGLX. The construction of the paths assumes data was saved with
@@ -178,7 +179,11 @@ def run_ecephys(npx_directory,results_directory,
     #             # 'depth_estimation'
     #             ]
 
-    json_directory = r'C:\Users\joshs\Documents\GitHub\ecephys_spike_sorting\json_files'
+
+    if current_pc =='MNB-HARV-D00969':
+        json_directory = r'C:\Users\xinto\Documents\ecephys_spike_sorting\CY_json'
+    else:
+        json_directory = r'C:\Users\joshs\Documents\GitHub\ecephys_spike_sorting\json_files'
 
     # -----------------------
     # -----------------------
