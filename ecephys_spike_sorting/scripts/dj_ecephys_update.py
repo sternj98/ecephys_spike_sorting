@@ -54,7 +54,7 @@ for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths):
         output_dest = os.path.join(catGT_dest,'catGT_' + these_recording_specs[0] + '_g' + these_recording_specs[1])
 
         # # Insert new file processed results path into SpikeSortingResults manual table
-        new_processed_entry = {**this_key, **{"ecephys_spike_sorting_results_path" : output_dest,"run_specs" : these_recording_specs}}
+        new_processed_entry = {**this_key, **{"ecephys_output_path" : output_dest,"run_specs" : these_recording_specs,"curated" : 0}}
         print(new_processed_entry)
         SpikeSortingResults().insert1(new_processed_entry)
         print("Inserted new entry in SpikeSortingResults: ",new_processed_entry) 
