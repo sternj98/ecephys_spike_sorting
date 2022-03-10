@@ -66,6 +66,9 @@ for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths):
     else: 
         print("skipping this entry due to lower NI sample rate: ", this_key)
 
+# run preprocessing for depth estimation on ephys data
+EphysDepthPreprocess().populate()
+
 # Update imec-synced behavior data
 # InterpolatedPosition().populate()
 # SyncBehaData().populate()
