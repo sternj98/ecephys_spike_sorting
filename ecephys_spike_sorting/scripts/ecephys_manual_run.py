@@ -41,3 +41,5 @@ runTPrime = False
 for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths): 
     print("Processing session at: ",this_unprocessed_np_path)
     run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT,runTPrime = runTPrime)
+
+EphysDepthPreprocess().populate()
