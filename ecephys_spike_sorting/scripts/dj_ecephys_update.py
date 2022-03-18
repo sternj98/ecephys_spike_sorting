@@ -39,7 +39,7 @@ runTPrime = False
 
 print("Now beginning ecephys processing of ephys sessions that have not been spike-sorted yet")
 for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths): 
-    if this_key['session_date'] >= datetime.date(2022, 1, 13): 
+    if this_key['session_date'] > datetime.date(2022,3,8): 
         print("Processing session at: ",this_unprocessed_np_path)
         run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT, runTPrime = runTPrime)
 
@@ -67,7 +67,7 @@ for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths):
         print("skipping this entry due to lower NI sample rate: ", this_key)
 
 # run preprocessing for depth estimation on ephys data
-EphysDepthPreprocess().populate()
+# EphysDepthPreprocess().populate()
 
 # Update imec-synced behavior data
 # InterpolatedPosition().populate()

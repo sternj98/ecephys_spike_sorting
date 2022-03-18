@@ -22,7 +22,7 @@ def run_ecephys(npx_directory,results_directory,
                                                 # 'psth_events',
                                                 'mean_waveforms',
                                                 'quality_metrics',
-                                                'depth_estimation'
+                                                # 'depth_estimation'
                                                 ],
                                                 ksTh_dict = {'default':'[10,4]', 'cortex':'[10,4]', 'medulla':'[10,4]', 'thalamus':'[10,4]'},
                                                 run_CatGT = True,
