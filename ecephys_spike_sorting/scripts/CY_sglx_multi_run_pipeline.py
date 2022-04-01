@@ -45,7 +45,7 @@ logName = 'output_log.csv'
 
 # Raw data directory = npx_directory
 # run_specs = name, gate, trigger and probes to process
-npx_directory = r'\\research.files.med.Harvard.edu\neurobio\HarveyLab\Tier1\Cindy\EphysData\CY\18\220211\155709' # r'C:\Users\xinto\Desktop' #r'\\research.files.med.Harvard.edu\neurobio\HarveyLab\Tier1\Cindy\EphysData' 
+npx_directory = r'\\research.files.med.Harvard.edu\neurobio\HarveyLab\Tier1\Cindy\EphysData\CY\13\220308\120900' # r'C:\Users\xinto\Desktop' #r'\\research.files.med.Harvard.edu\neurobio\HarveyLab\Tier1\Cindy\EphysData' 
 
 # Each run_spec is a list of 4 strings:
 #   undecorated run name (no g/t specifier, the run field in CatGT)
@@ -58,7 +58,7 @@ npx_directory = r'\\research.files.med.Harvard.edu\neurobio\HarveyLab\Tier1\Cind
 #           these strings must match a key in the param dictionaries above.
 
 run_specs = [									
-						['CY18_RMD_20220211', '0', 'start,end', '0', ['thalamus'] ]
+						['CY13_RMD_20220308', '0', 'start,end', '0', ['thalamus'] ]
 ]
 
 # ------------------
@@ -67,7 +67,7 @@ run_specs = [
 # Set to an existing directory; all output will be written here.
 # Output will be in the standard SpikeGLX directory structure:
 # run_folder/probe_folder/*.bin
-catGT_dest = r'E:\ecephys_out' # needs to be the probe directory
+catGT_dest = r'E:\ecephys_out' 
 
 # ------------
 # CatGT params
@@ -145,9 +145,9 @@ modules = [
             'kilosort_postprocessing',
             # 'noise_templates',    
             # 'psth_events',
-            'mean_waveforms',
-            'quality_metrics',
-            'depth_estimation'
+            # 'mean_waveforms',
+            # 'quality_metrics',
+            # 'depth_estimation'
 			]
 
 json_directory = r'C:\Users\xinto\Documents\ecephys_spike_sorting\CY_json'
