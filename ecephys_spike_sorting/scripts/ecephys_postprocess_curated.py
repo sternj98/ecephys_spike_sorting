@@ -29,9 +29,9 @@ runTPrime = True
 results_directory = r'Z:\HarveyLab\Tier1\Cindy\ProcessedEphys'
 
 # Go through and post-process
-print("Now beginning ecephys processing of ephys sessions that have not been spike-sorted yet")
+print("Now beginning post-processing of new curated sessions")
 for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths): 
-    if this_key['session_date'] > datetime.date(2022,3,8): 
+    if this_key['session_date'] >= datetime.date(2022,2,7): 
         print("Post-processing session at: ",this_unprocessed_np_path)
         run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT, runTPrime = runTPrime)
 

@@ -32,14 +32,13 @@ results_directory = r'Z:\HarveyLab\Tier1\Cindy\ProcessedEphys'
 # Look for ephys sessions that don't have spikesorting results
 session_keys , ephys_paths = ((EphysSession() & "probe = 'NP1'") - SpikeSortingResults()).fetch("KEY","ephys_path")
 
-
 modules = ['kilosort_helper','kilosort_postprocessing']
 run_CatGT = True
 runTPrime = False
 
 print("Now beginning ecephys processing of ephys sessions that have not been spike-sorted yet")
 for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths): 
-    if this_key['session_date'] > datetime.date(2022,3,8): 
+    if this_key['session_date'] >= datetime.date(2022,2,7): 
         print("Processing session at: ",this_unprocessed_np_path)
         run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT, runTPrime = runTPrime)
 
