@@ -52,7 +52,7 @@ def call_TPrime(args):
     ni_ex_string = args['tPrime_helper_params']['ni_ex_list']       
     ni_ex_list = list()
 
-    # add a list of sample times from NI to map behavioral data streams into the imec timeframe
+    # JS add a list of sample times from NI to map behavioral data streams into the imec timeframe
     ni_meta_name = run_name + '_tcat.nidq.meta'
     ni_meta_path = Path(os.path.join(run_directory,ni_meta_name))
     meta = readMeta(ni_meta_path)
