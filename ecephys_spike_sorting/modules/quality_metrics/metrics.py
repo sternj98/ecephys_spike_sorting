@@ -373,6 +373,12 @@ def calculate_pc_metrics(spike_clusters,
 
             units_for_channel = np.asarray(units_for_channel[units_in_range])
             
+            # CY 4/10/2022 to fix indexing out of range
+            if max(units_in_range) >= len(channel_index):
+                units_to_keep = np.where(units_in_range<len(channel_index))
+                units_in_range = units_in_range[units_to_keep]
+                print('CY: Ignoring out of range units')
+
             channel_index = channel_index[units_in_range]
     
 # OLDER calculatioon assuming linear array
