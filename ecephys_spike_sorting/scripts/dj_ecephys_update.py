@@ -12,10 +12,12 @@ else:
 
 sys.path.append(ks_dj_pipeline_path)
 # now import datajoint stuff
-from dj_ephys_utils import reformat_np_dir,update_Date
-from CY_schema_table import *
-from JS_ephys_tables import * 
-from dynChoice import *
+# from CY_schema_table import *
+# from JS_ephys_tables import * 
+from Ephys_tables import *
+from dj_ephys_utils import reformat_np_dir
+from dj_schema_utils import update_Date
+# from dynChoice import *
 
 
 # reformat sglx sessions within DJ-compatible nested directory structure
