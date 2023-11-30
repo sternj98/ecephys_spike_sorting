@@ -1,0 +1,41 @@
+{
+  "execution_time": 576.3092703819275,
+  "input_parameters": {
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220630\\154354\\catgt_CY34_LMD_20220630_g0\\CY34_LMD_20220630_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220630\\154354\\catgt_CY34_LMD_20220630_g0\\CY34_LMD_20220630_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\34\\220630\\154354"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY34_LMD_20220630_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "within_unit_overlap_window": 0.000333,
+      "remove_duplicates": true,
+      "between_unit_dist_um": 42,
+      "align_avg_waveform": false,
+      "between_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "deletion_mode": "lowAmpCluster"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.189121,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220630\\154354\\catgt_CY34_LMD_20220630_g0\\CY34_LMD_20220630_g0_imec0\\CY34_LMD_20220630_g0_tcat.imec0.lf.bin",
+      "template_zero_padding": 21,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220630\\154354\\catgt_CY34_LMD_20220630_g0\\CY34_LMD_20220630_g0_imec0\\CY34_LMD_20220630_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "num_channels": 385
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY34_LMD_20220630_imec0-input.json"
+  }
+}

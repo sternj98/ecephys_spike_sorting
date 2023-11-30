@@ -1,0 +1,54 @@
+{
+  "execution_time": 2.5144031047821045,
+  "input_parameters": {
+    "ephys_params": {
+      "num_channels": 385,
+      "ap_band_file": "F:\\ecephys_out\\catgt_CY38_LMD_20230608_opto_g0\\CY38_LMD_20230608_opto_g0_imec0\\CY38_LMD_20230608_opto_g0_tcat.imec0.ap.bin",
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "probe_type": "NP1",
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "F:\\ecephys_out\\catgt_CY38_LMD_20230608_opto_g0\\CY38_LMD_20230608_opto_g0_imec0\\CY38_LMD_20230608_opto_g0_tcat.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.220502,
+      "reference_channels": [
+        191
+      ]
+    },
+    "log_level": "ERROR",
+    "tPrime_helper_params": {
+      "tPrime_3A": false,
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "fromStream_list_3A": [],
+      "toStream_path_3A": " ",
+      "im_ex_list": " -SY=0,-1,6,500",
+      "toStream_sync_params": "SY=0,-1,6,500",
+      "sync_period": 1.0,
+      "ni_sync_params": "XD=-1,0,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win"
+    },
+    "catGT_helper_params": {
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "car_mode": "gbldmx",
+      "gate_string": "0",
+      "run_name": "CY38_LMD_20230608_opto",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "trigger_string": "0,0",
+      "stream_string": "-ap",
+      "probe_string": "0"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY38_LMD_20230608_opto_TPrime-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY38_LMD_20230608_opto_TPrime-output.json",
+    "directories": {
+      "extracted_data_directory": "F:\\ecephys_out",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "F:\\ecephys_out\\catgt_CY38_LMD_20230608_opto_g0\\CY38_LMD_20230608_opto_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    }
+  }
+}

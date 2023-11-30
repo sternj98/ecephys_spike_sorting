@@ -1,0 +1,54 @@
+{
+  "execution_time": 27.39082646369934,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY27_LMD_20220618_TPrime-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY27_LMD_20220618_TPrime-output.json",
+    "tPrime_helper_params": {
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "ni_sync_params": "XD=-1,0,500",
+      "im_ex_list": " -SY=0,-1,6,0",
+      "fromStream_list_3A": [],
+      "toStream_path_3A": " ",
+      "sync_period": 1.0,
+      "tPrime_3A": false,
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "toStream_sync_params": "SY=0,384,6,500"
+    },
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220618\\112654\\catgt_CY27_LMD_20220618_g0\\CY27_LMD_20220618_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220618\\112654",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\27\\220618\\112654",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "catGT_helper_params": {
+      "run_name": "CY27_LMD_20220618",
+      "stream_string": "-ap",
+      "loccar_inner": 2,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "probe_string": "0",
+      "trigger_string": "0,0",
+      "car_mode": "gbldmx",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "loccar_outer": 8,
+      "gate_string": "0"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220618\\112654\\catgt_CY27_LMD_20220618_g0\\CY27_LMD_20220618_g0_imec0\\CY27_LMD_20220618_g0_tcat.imec0.lf.bin",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220618\\112654\\catgt_CY27_LMD_20220618_g0\\CY27_LMD_20220618_g0_imec0\\CY27_LMD_20220618_g0_tcat.imec0.ap.bin",
+      "num_channels": 385,
+      "probe_type": "NP1",
+      "sample_rate": 30000.189121,
+      "reference_channels": [
+        191
+      ],
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false
+    }
+  }
+}

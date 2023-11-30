@@ -1,0 +1,51 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY56_RMD_20230726_opto_imec0-input.json",
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0\\CY56_RMD_20230726_opto_g0_tcat.imec0.ap.bin",
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "probe_type": "NP1",
+      "lfp_band_file": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0\\CY56_RMD_20230726_opto_g0_tcat.imec0.lf.bin",
+      "reference_channels": [
+        191
+      ],
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.220502
+    },
+    "quality_metrics_params": {
+      "isi_threshold": 0.001,
+      "n_neighbors": 4,
+      "include_pcs": true,
+      "max_spikes_for_nn": 10000,
+      "drift_metrics_interval_s": 51.0,
+      "max_spikes_for_unit": 500,
+      "tbin_sec": 0.001,
+      "max_radius_um": 68,
+      "n_silhouette": 10000,
+      "min_isi": 0.000166,
+      "drift_metrics_min_spikes_per_interval": 10
+    },
+    "directories": {
+      "kilosort_output_directory": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData"
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0\\imec0_ks2\\metrics.csv"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY56_RMD_20230726_opto_imec0-quality_metrics-output.json",
+    "waveform_metrics": {
+      "waveform_metrics_file": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    }
+  },
+  "execution_time": 3014.345463037491,
+  "quality_metrics_output_file": "D:\\ecephys_out\\catgt_CY56_RMD_20230726_opto_g0\\CY56_RMD_20230726_opto_g0_imec0\\imec0_ks2\\metrics.csv"
+}

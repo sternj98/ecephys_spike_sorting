@@ -1,0 +1,41 @@
+{
+  "execution_time": 750.0435032844543,
+  "input_parameters": {
+    "log_level": "ERROR",
+    "ks_postprocessing_params": {
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "remove_duplicates": true,
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "deletion_mode": "lowAmpCluster"
+    },
+    "ephys_params": {
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220508\\174423\\catgt_CY29_LLP_20220508_g0\\CY29_LLP_20220508_g0_imec0\\CY29_LLP_20220508_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "reorder_lfp_channels": false,
+      "template_zero_padding": 21,
+      "sample_rate": 30000.189121,
+      "probe_type": "NP1",
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220508\\174423\\catgt_CY29_LLP_20220508_g0\\CY29_LLP_20220508_g0_imec0\\CY29_LLP_20220508_g0_tcat.imec0.ap.bin"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY29_LLP_20220508_imec0-kilosort_postprocessing-output.json",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY29_LLP_20220508_imec0-input.json",
+    "directories": {
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220508\\174423\\catgt_CY29_LLP_20220508_g0\\CY29_LLP_20220508_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\29\\220508\\174423",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220508\\174423\\catgt_CY29_LLP_20220508_g0\\CY29_LLP_20220508_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    }
+  }
+}

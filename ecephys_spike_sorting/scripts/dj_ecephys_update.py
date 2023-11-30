@@ -25,9 +25,9 @@ reformat_np_dir()
 # add new dates to Date() manual table
 update_Date()
 # update BehaSession and EphysSession tables
-BehaSession().populate()
+# BehaSession().populate()
 EphysSession().populate()
-SwitchingBehavior().populate()
+# SwitchingBehavior().populate()
 
 results_directory = r'Z:\HarveyLab\Tier1\Cindy\ProcessedEphys'
 
@@ -42,7 +42,10 @@ print("Now beginning ecephys processing of ephys sessions that have not been spi
 for this_key,this_unprocessed_np_path in zip(session_keys,ephys_paths): 
     if this_key['session_date'] >= datetime.date(2022,2,7): 
         print("Processing session at: ",this_unprocessed_np_path)
-        run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT, runTPrime = runTPrime)
+        try:
+            run_ecephys(this_unprocessed_np_path,results_directory,modules = modules,run_CatGT = run_CatGT, runTPrime = runTPrime)
+        except:
+            continue
 
         # file formatting from sglx_multi_run_pipeline_js.py
         npx_directory_full = os.path.join(this_unprocessed_np_path,os.listdir(this_unprocessed_np_path)[0])

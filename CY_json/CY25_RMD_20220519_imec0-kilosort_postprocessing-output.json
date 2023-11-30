@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_20220519_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220519\\154725",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220519\\154725\\catgt_CY25_RMD_20220519_g0\\CY25_RMD_20220519_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220519\\154725\\catgt_CY25_RMD_20220519_g0\\CY25_RMD_20220519_g0_imec0\\imec0_ks2"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_20220519_imec0-input.json",
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220519\\154725\\catgt_CY25_RMD_20220519_g0\\CY25_RMD_20220519_g0_imec0\\CY25_RMD_20220519_g0_tcat.imec0.lf.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.189121,
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220519\\154725\\catgt_CY25_RMD_20220519_g0\\CY25_RMD_20220519_g0_imec0\\CY25_RMD_20220519_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false
+    },
+    "ks_postprocessing_params": {
+      "remove_duplicates": true,
+      "align_avg_waveform": false,
+      "between_unit_dist_um": 42,
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": true
+    }
+  },
+  "execution_time": 911.2081258296967
+}

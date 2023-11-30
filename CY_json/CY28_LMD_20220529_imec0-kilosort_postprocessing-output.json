@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220529\\185416\\catgt_CY28_LMD_20220529_g0\\CY28_LMD_20220529_g0_imec0\\CY28_LMD_20220529_g0_tcat.imec0.lf.bin",
+      "probe_type": "NP1",
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "num_channels": 385,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220529\\185416\\catgt_CY28_LMD_20220529_g0\\CY28_LMD_20220529_g0_imec0\\CY28_LMD_20220529_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "sample_rate": 30000.189121,
+      "bit_volts": 2.34375,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "ks_postprocessing_params": {
+      "between_unit_dist_um": 42,
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "remove_duplicates": true,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "deletion_mode": "lowAmpCluster",
+      "between_unit_overlap_window": 0.000333
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_LMD_20220529_imec0-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_LMD_20220529_imec0-kilosort_postprocessing-output.json",
+    "log_level": "ERROR",
+    "directories": {
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220529\\185416\\catgt_CY28_LMD_20220529_g0\\CY28_LMD_20220529_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220529\\185416",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220529\\185416\\catgt_CY28_LMD_20220529_g0\\CY28_LMD_20220529_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    }
+  },
+  "execution_time": 980.7264935970306
+}

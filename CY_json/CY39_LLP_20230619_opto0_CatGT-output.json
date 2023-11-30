@@ -1,0 +1,43 @@
+{
+  "execution_time": 1566.9209156036377,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_LLP_20230619_opto0_CatGT-input.json",
+    "directories": {
+      "kilosort_output_directory": "F:\\ecephys_out",
+      "extracted_data_directory": "F:\\ecephys_out",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_LLP_20230619_opto0_CatGT-output.json",
+    "catGT_helper_params": {
+      "run_name": "CY39_LLP_20230619_opto",
+      "gate_string": "0",
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "trigger_string": "0,0",
+      "probe_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "num_channels": 385,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\CY39_LLP_20230619_opto_g0_t0.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\CY39_LLP_20230619_opto_g0_t0.imec0.ap.bin",
+      "sample_rate": 30000.220502,
+      "reference_channels": [
+        191
+      ]
+    }
+  }
+}

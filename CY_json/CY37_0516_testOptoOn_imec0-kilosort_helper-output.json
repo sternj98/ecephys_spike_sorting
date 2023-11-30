@@ -1,0 +1,88 @@
+{
+  "nTemplate": 627,
+  "mask_channels": [
+    70
+  ],
+  "execution_time": 2773.261775970459,
+  "nTot": 8378315,
+  "input_parameters": {
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "extracted_data_directory": "F:\\ecephys_out\\catgt_CY37_0516_testOptoOn_g0\\CY37_0516_testOptoOn_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "F:\\ecephys_out\\catgt_CY37_0516_testOptoOn_g0\\CY37_0516_testOptoOn_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "ephys_params": {
+      "probe_type": "NP1",
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.220502,
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "F:\\ecephys_out\\catgt_CY37_0516_testOptoOn_g0\\CY37_0516_testOptoOn_g0_imec0\\CY37_0516_testOptoOn_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "F:\\ecephys_out\\catgt_CY37_0516_testOptoOn_g0\\CY37_0516_testOptoOn_g0_imec0\\CY37_0516_testOptoOn_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "template_zero_padding": 21
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY37_0516_testOptoOn_imec0-kilosort_helper-output.json",
+    "kilosort_helper_params": {
+      "matlab_home_directory": "F:\\kilosort_datatemp",
+      "ks_make_copy": true,
+      "kilosort2_params": {
+        "whiteningRange": 32,
+        "AUCsplit": 0.9,
+        "NT": "64*1024 + ops.ntbuff",
+        "nfilt_factor": 4,
+        "Th": "[10,4]",
+        "ntbuff": 64,
+        "reorder": 1,
+        "CSBseed": 1,
+        "minFR": 0.02,
+        "LTseed": 1,
+        "lam": 10,
+        "KSver": "2.5",
+        "remDup": 0,
+        "fproc": "'F:/kilosort_datatemp/temp_wh.dat'",
+        "scaleproc": 200,
+        "nskip": 25,
+        "nSkipCov": 25,
+        "useRAM": 0,
+        "copy_fproc": 0,
+        "chanMap": "'chanMap.mat'",
+        "CAR": 0,
+        "spkTh": -6,
+        "momentum": "[20 400]",
+        "finalSplits": 1,
+        "minfr_goodchannels": 0.1,
+        "trange": "[0 Inf]",
+        "labelGood": 1,
+        "nPCs": 3,
+        "ThPre": 8,
+        "GPU": 1,
+        "saveRez": 1,
+        "gain": 2.34375,
+        "nNeighbors": 32,
+        "sigmaMask": 30,
+        "fshigh": 150
+      },
+      "spikeGLX_data": true,
+      "npy_matlab_repository": "C:\\Users\\xinto\\Documents\\npy-matlab",
+      "kilosort_repository": "C:\\Users\\xinto\\Documents\\Kilosort-2.5",
+      "surface_channel_buffer": 15,
+      "kilosort_version": 2
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY37_0516_testOptoOn_imec0-input.json",
+    "common_files": {
+      "settings_json": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "probe_json": "F:\\ecephys_out\\catgt_CY37_0516_testOptoOn_g0\\CY37_0516_testOptoOn_g0_imec0\\probe_json.json"
+    }
+  },
+  "kilosort_commit_date": "repository not available",
+  "kilosort_commit_hash": "repository not available"
+}

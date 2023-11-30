@@ -1,0 +1,41 @@
+{
+  "execution_time": 558.8700559139252,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_20220523_imec0-input.json",
+    "ks_postprocessing_params": {
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "remove_duplicates": true,
+      "align_avg_waveform": false,
+      "deletion_mode": "lowAmpCluster",
+      "within_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_20220523_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220523\\135946\\catgt_CY25_RMD_20220523_g0\\CY25_RMD_20220523_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220523\\135946",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220523\\135946\\catgt_CY25_RMD_20220523_g0\\CY25_RMD_20220523_g0_imec0"
+    },
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220523\\135946\\catgt_CY25_RMD_20220523_g0\\CY25_RMD_20220523_g0_imec0\\CY25_RMD_20220523_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "bit_volts": 2.34375,
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "sample_rate": 30000.189121,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220523\\135946\\catgt_CY25_RMD_20220523_g0\\CY25_RMD_20220523_g0_imec0\\CY25_RMD_20220523_g0_tcat.imec0.lf.bin",
+      "num_channels": 385,
+      "vertical_site_spacing": 1e-05
+    },
+    "log_level": "ERROR"
+  }
+}

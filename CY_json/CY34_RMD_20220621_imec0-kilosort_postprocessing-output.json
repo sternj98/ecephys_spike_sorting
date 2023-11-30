@@ -1,0 +1,41 @@
+{
+  "execution_time": 957.1051549911499,
+  "input_parameters": {
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.189121,
+      "probe_type": "NP1",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220621\\144102\\catgt_CY34_RMD_20220621_g0\\CY34_RMD_20220621_g0_imec0\\CY34_RMD_20220621_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220621\\144102\\catgt_CY34_RMD_20220621_g0\\CY34_RMD_20220621_g0_imec0\\CY34_RMD_20220621_g0_tcat.imec0.ap.bin",
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY34_RMD_20220621_imec0-kilosort_postprocessing-output.json",
+    "log_level": "ERROR",
+    "directories": {
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220621\\144102\\catgt_CY34_RMD_20220621_g0\\CY34_RMD_20220621_g0_imec0",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\34\\220621\\144102",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220621\\144102\\catgt_CY34_RMD_20220621_g0\\CY34_RMD_20220621_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "ks_postprocessing_params": {
+      "remove_duplicates": true,
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "within_unit_overlap_window": 0.000333,
+      "align_avg_waveform": false,
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": true
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY34_RMD_20220621_imec0-input.json"
+  }
+}

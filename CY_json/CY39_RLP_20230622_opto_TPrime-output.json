@@ -1,0 +1,54 @@
+{
+  "execution_time": 1.616901159286499,
+  "input_parameters": {
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "kilosort_output_directory": "F:\\ecephys_out\\catgt_CY39_RLP_20230622_opto_g0\\CY39_RLP_20230622_opto_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "F:\\ecephys_out",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_RLP_20230622_opto_TPrime-output.json",
+    "log_level": "ERROR",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "sample_rate": 30000.220502,
+      "ap_band_file": "F:\\ecephys_out\\catgt_CY39_RLP_20230622_opto_g0\\CY39_RLP_20230622_opto_g0_imec0\\CY39_RLP_20230622_opto_g0_tcat.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false,
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_band_file": "F:\\ecephys_out\\catgt_CY39_RLP_20230622_opto_g0\\CY39_RLP_20230622_opto_g0_imec0\\CY39_RLP_20230622_opto_g0_tcat.imec0.lf.bin",
+      "num_channels": 385,
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_RLP_20230622_opto_TPrime-input.json",
+    "catGT_helper_params": {
+      "probe_string": "0",
+      "gate_string": "0",
+      "loccar_outer": 8,
+      "stream_string": "-ap",
+      "loccar_inner": 2,
+      "run_name": "CY39_RLP_20230622_opto",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "car_mode": "gbldmx",
+      "trigger_string": "0,0"
+    },
+    "tPrime_helper_params": {
+      "im_ex_list": " -SY=0,-1,6,500",
+      "toStream_path_3A": " ",
+      "toStream_sync_params": "SY=0,-1,6,500",
+      "tPrime_3A": false,
+      "sync_period": 1.0,
+      "ni_sync_params": "XD=-1,0,500",
+      "fromStream_list_3A": [],
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0"
+    }
+  }
+}

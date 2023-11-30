@@ -1,0 +1,43 @@
+{
+  "execution_time": 2490.9612052440643,
+  "input_parameters": {
+    "catGT_helper_params": {
+      "loccar_outer": 8,
+      "loccar_inner": 2,
+      "gate_string": "0",
+      "probe_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar",
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "run_name": "CY40_RMD_20230704",
+      "trigger_string": "0,0"
+    },
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230704\\122002",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230704\\122002",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230704\\122002",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "ephys_params": {
+      "num_channels": 385,
+      "reference_channels": [
+        191
+      ],
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230704\\122002\\CY40_RMD_20230704_g0\\CY40_RMD_20230704_g0_imec0\\CY40_RMD_20230704_g0_t0.imec0.lf.bin",
+      "sample_rate": 30000.220502,
+      "probe_type": "NP1",
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230704\\122002\\CY40_RMD_20230704_g0\\CY40_RMD_20230704_g0_imec0\\CY40_RMD_20230704_g0_t0.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "template_zero_padding": 21,
+      "bit_volts": 2.34375
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RMD_202307040_CatGT-output.json",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RMD_202307040_CatGT-input.json"
+  }
+}

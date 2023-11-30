@@ -1,0 +1,41 @@
+{
+  "execution_time": 104.52111911773682,
+  "input_parameters": {
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230623\\105318",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "extracted_data_directory": "D:\\ecephys_out\\catgt_CY40_LLP_20230623_g0\\CY40_LLP_20230623_g0_imec0",
+      "kilosort_output_directory": "D:\\ecephys_out\\catgt_CY40_LLP_20230623_g0\\CY40_LLP_20230623_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_LLP_20230623_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "between_unit_overlap_window": 0.000333,
+      "deletion_mode": "lowAmpCluster",
+      "remove_duplicates": true,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "align_avg_waveform": false,
+      "include_pcs": true
+    },
+    "ephys_params": {
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "template_zero_padding": 21,
+      "lfp_band_file": "D:\\ecephys_out\\catgt_CY40_LLP_20230623_g0\\CY40_LLP_20230623_g0_imec0\\CY40_LLP_20230623_g0_tcat.imec0.lf.bin",
+      "sample_rate": 30000.220502,
+      "ap_band_file": "D:\\ecephys_out\\catgt_CY40_LLP_20230623_g0\\CY40_LLP_20230623_g0_imec0\\CY40_LLP_20230623_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ]
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_LLP_20230623_imec0-input.json"
+  }
+}

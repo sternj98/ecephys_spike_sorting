@@ -1,0 +1,54 @@
+{
+  "execution_time": 29.88600206375122,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_LLP_20220526_TPrime-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_LLP_20220526_TPrime-output.json",
+    "ephys_params": {
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220526\\140311\\catgt_CY25_LLP_20220526_g0\\CY25_LLP_20220526_g0_imec0\\CY25_LLP_20220526_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.189121,
+      "template_zero_padding": 21,
+      "probe_type": "NP1",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220526\\140311\\catgt_CY25_LLP_20220526_g0\\CY25_LLP_20220526_g0_imec0\\CY25_LLP_20220526_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "catGT_helper_params": {
+      "loccar_outer": 8,
+      "stream_string": "-ap",
+      "probe_string": "0",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "loccar_inner": 2,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "trigger_string": "0,0",
+      "car_mode": "gbldmx",
+      "gate_string": "0",
+      "run_name": "CY25_LLP_20220526"
+    },
+    "log_level": "ERROR",
+    "tPrime_helper_params": {
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "im_ex_list": " -SY=0,-1,6,0",
+      "sync_period": 1.0,
+      "fromStream_list_3A": [],
+      "toStream_path_3A": " ",
+      "ni_sync_params": "XD=-1,0,500",
+      "toStream_sync_params": "SY=0,384,6,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "tPrime_3A": false
+    },
+    "directories": {
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220526\\140311\\catgt_CY25_LLP_20220526_g0\\CY25_LLP_20220526_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220526\\140311",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220526\\140311"
+    }
+  }
+}

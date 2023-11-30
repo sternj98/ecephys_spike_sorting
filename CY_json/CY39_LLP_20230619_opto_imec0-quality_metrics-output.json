@@ -1,0 +1,51 @@
+{
+  "execution_time": 2506.84850525856,
+  "input_parameters": {
+    "quality_metrics_params": {
+      "isi_threshold": 0.001,
+      "n_neighbors": 4,
+      "max_radius_um": 68,
+      "min_isi": 0.000166,
+      "include_pcs": true,
+      "max_spikes_for_nn": 10000,
+      "drift_metrics_interval_s": 51.0,
+      "max_spikes_for_unit": 500,
+      "n_silhouette": 10000,
+      "tbin_sec": 0.001,
+      "drift_metrics_min_spikes_per_interval": 10
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_LLP_20230619_opto_imec0-quality_metrics-output.json",
+    "waveform_metrics": {
+      "waveform_metrics_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2\\metrics.csv"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "sample_rate": 30000.220502,
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "ap_band_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\CY39_LLP_20230619_opto_g0_tcat.imec0.ap.bin",
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "vertical_site_spacing": 1e-05,
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\CY39_LLP_20230619_opto_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "num_channels": 385
+    },
+    "directories": {
+      "kilosort_output_directory": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_LLP_20230619_opto_imec0-input.json"
+  },
+  "quality_metrics_output_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2\\metrics.csv"
+}

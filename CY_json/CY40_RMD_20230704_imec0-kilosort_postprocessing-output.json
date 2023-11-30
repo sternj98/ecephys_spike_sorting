@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RMD_20230704_imec0-kilosort_postprocessing-output.json",
+    "log_level": "ERROR",
+    "directories": {
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230704\\122002\\catgt_CY40_RMD_20230704_g0\\CY40_RMD_20230704_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230704\\122002",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230704\\122002\\catgt_CY40_RMD_20230704_g0\\CY40_RMD_20230704_g0_imec0\\imec0_ks2"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RMD_20230704_imec0-input.json",
+    "ks_postprocessing_params": {
+      "deletion_mode": "lowAmpCluster",
+      "between_unit_dist_um": 42,
+      "include_pcs": true,
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "align_avg_waveform": false,
+      "remove_duplicates": true
+    },
+    "ephys_params": {
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230704\\122002\\catgt_CY40_RMD_20230704_g0\\CY40_RMD_20230704_g0_imec0\\CY40_RMD_20230704_g0_tcat.imec0.ap.bin",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230704\\122002\\catgt_CY40_RMD_20230704_g0\\CY40_RMD_20230704_g0_imec0\\CY40_RMD_20230704_g0_tcat.imec0.lf.bin",
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "sample_rate": 30000.220502
+    }
+  },
+  "execution_time": 1033.2283215522766
+}

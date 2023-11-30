@@ -1,0 +1,54 @@
+{
+  "execution_time": 24.575899839401245,
+  "input_parameters": {
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230627\\123139",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230627\\123139\\catgt_CY40_LLP_20230627_g0\\CY40_LLP_20230627_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230627\\123139"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_LLP_20230627_TPrime-output.json",
+    "tPrime_helper_params": {
+      "tPrime_3A": false,
+      "fromStream_list_3A": [],
+      "ni_sync_params": "XD=-1,0,500",
+      "toStream_path_3A": " ",
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "sync_period": 1.0,
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "toStream_sync_params": "SY=0,384,6,500",
+      "im_ex_list": " -SY=0,-1,6,0"
+    },
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230627\\123139\\catgt_CY40_LLP_20230627_g0\\CY40_LLP_20230627_g0_imec0\\CY40_LLP_20230627_g0_tcat.imec0.lf.bin",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230627\\123139\\catgt_CY40_LLP_20230627_g0\\CY40_LLP_20230627_g0_imec0\\CY40_LLP_20230627_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "sample_rate": 30000.220502,
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0
+    },
+    "catGT_helper_params": {
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "run_name": "CY40_LLP_20230627",
+      "loccar_inner": 2,
+      "trigger_string": "0,0",
+      "stream_string": "-ap",
+      "loccar_outer": 8,
+      "car_mode": "gbldmx",
+      "gate_string": "0",
+      "probe_string": "0"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_LLP_20230627_TPrime-input.json",
+    "log_level": "ERROR"
+  }
+}

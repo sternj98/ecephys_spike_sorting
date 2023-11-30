@@ -1,0 +1,86 @@
+{
+  "nTot": 13589291,
+  "execution_time": 6276.842128753662,
+  "kilosort_commit_date": "repository not available",
+  "kilosort_commit_hash": "repository not available",
+  "nTemplate": 635,
+  "mask_channels": [],
+  "input_parameters": {
+    "common_files": {
+      "probe_json": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\probe_json.json",
+      "settings_json": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230630\\112159"
+    },
+    "kilosort_helper_params": {
+      "kilosort_repository": "C:\\Users\\xinto\\Documents\\Kilosort-2.5",
+      "matlab_home_directory": "F:\\kilosort_datatemp",
+      "kilosort_version": 2,
+      "surface_channel_buffer": 15,
+      "spikeGLX_data": true,
+      "kilosort2_params": {
+        "scaleproc": 200,
+        "fshigh": 150,
+        "ntbuff": 64,
+        "LTseed": 1,
+        "finalSplits": 1,
+        "AUCsplit": 0.9,
+        "chanMap": "'chanMap.mat'",
+        "minFR": 0.02,
+        "ThPre": 8,
+        "gain": 2.34375,
+        "sigmaMask": 30,
+        "nPCs": 3,
+        "nskip": 25,
+        "nfilt_factor": 4,
+        "CAR": 0,
+        "trange": "[0 Inf]",
+        "nSkipCov": 25,
+        "minfr_goodchannels": 0.1,
+        "spkTh": -6,
+        "GPU": 1,
+        "whiteningRange": 32,
+        "KSver": "2.5",
+        "remDup": 0,
+        "Th": "[10,4]",
+        "reorder": 1,
+        "CSBseed": 1,
+        "copy_fproc": 0,
+        "useRAM": 0,
+        "labelGood": 1,
+        "saveRez": 1,
+        "lam": 10,
+        "NT": "64*1024 + ops.ntbuff",
+        "fproc": "'F:/kilosort_datatemp/temp_wh.dat'",
+        "nNeighbors": 32,
+        "momentum": "[20 400]"
+      },
+      "ks_make_copy": true,
+      "npy_matlab_repository": "C:\\Users\\xinto\\Documents\\npy-matlab"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RLP_20230630_imec0-kilosort_helper-output.json",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\CY40_RLP_20230630_g0_tcat.imec0.lf.bin",
+      "lfp_sample_rate": 2500.0,
+      "vertical_site_spacing": 1e-05,
+      "reorder_lfp_channels": false,
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\CY40_RLP_20230630_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.220502,
+      "num_channels": 385
+    },
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230630\\112159",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RLP_20230630_imec0-input.json"
+  }
+}

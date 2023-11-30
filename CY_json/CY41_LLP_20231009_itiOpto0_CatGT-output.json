@@ -1,0 +1,43 @@
+{
+  "execution_time": 2179.0972719192505,
+  "input_parameters": {
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY41_LLP_20231009_itiOpto0_CatGT-output.json",
+    "log_level": "ERROR",
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231009\\173610",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231009\\173610",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231009\\173610",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY41_LLP_20231009_itiOpto0_CatGT-input.json",
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "num_channels": 385,
+      "sample_rate": 30000.220502,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reorder_lfp_channels": false,
+      "bit_volts": 2.34375,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231009\\173610\\CY41_LLP_20231009_itiOpto_g0\\CY41_LLP_20231009_itiOpto_g0_imec0\\CY41_LLP_20231009_itiOpto_g0_t0.imec0.ap.bin",
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231009\\173610\\CY41_LLP_20231009_itiOpto_g0\\CY41_LLP_20231009_itiOpto_g0_imec0\\CY41_LLP_20231009_itiOpto_g0_t0.imec0.lf.bin",
+      "vertical_site_spacing": 1e-05
+    },
+    "catGT_helper_params": {
+      "trigger_string": "0,0",
+      "run_name": "CY41_LLP_20231009_itiOpto",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar",
+      "loccar_outer": 8,
+      "gate_string": "0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "probe_string": "0",
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "loccar_inner": 2
+    }
+  }
+}

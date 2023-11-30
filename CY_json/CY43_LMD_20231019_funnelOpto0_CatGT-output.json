@@ -1,0 +1,43 @@
+{
+  "execution_time": 2045.3179483413696,
+  "input_parameters": {
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY43_LMD_20231019_funnelOpto0_CatGT-output.json",
+    "log_level": "ERROR",
+    "catGT_helper_params": {
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "gate_string": "0",
+      "loccar_inner": 2,
+      "probe_string": "0",
+      "trigger_string": "0,0",
+      "stream_string": "-ap -ni -lf",
+      "run_name": "CY43_LMD_20231019_funnelOpto",
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "car_mode": "gblcar"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY43_LMD_20231019_funnelOpto0_CatGT-input.json",
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "sample_rate": 30000.220502,
+      "reorder_lfp_channels": false,
+      "bit_volts": 2.34375,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\43\\231019\\174955\\CY43_LMD_20231019_funnelOpto_g0\\CY43_LMD_20231019_funnelOpto_g0_imec0\\CY43_LMD_20231019_funnelOpto_g0_t0.imec0.lf.bin",
+      "num_channels": 385,
+      "probe_type": "NP1",
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\43\\231019\\174955\\CY43_LMD_20231019_funnelOpto_g0\\CY43_LMD_20231019_funnelOpto_g0_imec0\\CY43_LMD_20231019_funnelOpto_g0_t0.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ]
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\43\\231019\\174955",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\43\\231019\\174955",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\43\\231019\\174955",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "execution_time": 780.2455697059631,
+  "input_parameters": {
+    "ks_postprocessing_params": {
+      "between_unit_dist_um": 42,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "align_avg_waveform": false,
+      "remove_duplicates": true,
+      "between_unit_overlap_window": 0.000333,
+      "within_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "deletion_mode": "lowAmpCluster"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220610\\150656\\catgt_CY26_RLP_20220610_g0\\CY26_RLP_20220610_g0_imec0\\CY26_RLP_20220610_g0_tcat.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220610\\150656\\catgt_CY26_RLP_20220610_g0\\CY26_RLP_20220610_g0_imec0\\CY26_RLP_20220610_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.189121,
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0
+    },
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220610\\150656\\catgt_CY26_RLP_20220610_g0\\CY26_RLP_20220610_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\26\\220610\\150656",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220610\\150656\\catgt_CY26_RLP_20220610_g0\\CY26_RLP_20220610_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY26_RLP_20220610_imec0-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY26_RLP_20220610_imec0-kilosort_postprocessing-output.json"
+  }
+}

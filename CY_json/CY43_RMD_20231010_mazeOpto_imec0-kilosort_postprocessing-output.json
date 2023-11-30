@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\43\\231010\\175423\\catgt_CY43_RMD_20231010_mazeOpto_g0\\CY43_RMD_20231010_mazeOpto_g0_imec0\\CY43_RMD_20231010_mazeOpto_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.220502,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\43\\231010\\175423\\catgt_CY43_RMD_20231010_mazeOpto_g0\\CY43_RMD_20231010_mazeOpto_g0_imec0\\CY43_RMD_20231010_mazeOpto_g0_tcat.imec0.lf.bin",
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY43_RMD_20231010_mazeOpto_imec0-input.json",
+    "directories": {
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\43\\231010\\175423\\catgt_CY43_RMD_20231010_mazeOpto_g0\\CY43_RMD_20231010_mazeOpto_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\43\\231010\\175423",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\43\\231010\\175423\\catgt_CY43_RMD_20231010_mazeOpto_g0\\CY43_RMD_20231010_mazeOpto_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY43_RMD_20231010_mazeOpto_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "remove_duplicates": true,
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": true,
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win"
+    }
+  },
+  "execution_time": 481.95801162719727
+}

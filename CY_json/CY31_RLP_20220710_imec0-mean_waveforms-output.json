@@ -1,0 +1,50 @@
+{
+  "execution_time": 7713.956795692444,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY31_RLP_20220710_imec0-input.json",
+    "waveform_metrics": {
+      "waveform_metrics_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY31_RLP_20220710_imec0-mean_waveforms-output.json",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "sample_rate": 30000.189121,
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0\\CY31_RLP_20220710_g0_tcat.imec0.lf.bin",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0\\CY31_RLP_20220710_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0\\imec0_ks2\\metrics.csv"
+    },
+    "mean_waveform_params": {
+      "upsampling_factor": 2.4390243902439024,
+      "spikes_per_epoch": 1000,
+      "mean_waveforms_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0\\imec0_ks2\\mean_waveforms.npy",
+      "site_range": 16,
+      "num_epochs": 1,
+      "samples_per_spike": 82,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "pre_samples": 20,
+      "use_C_Waves": true,
+      "spread_threshold": 0.12,
+      "snr_radius": 8
+    },
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\31\\220710\\125620",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220710\\125620\\catgt_CY31_RLP_20220710_g0\\CY31_RLP_20220710_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "log_level": "ERROR"
+  }
+}

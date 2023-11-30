@@ -1,0 +1,41 @@
+{
+  "execution_time": 1265.7875139713287,
+  "input_parameters": {
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_20220518_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "deletion_mode": "lowAmpCluster",
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "between_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "within_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "remove_duplicates": true,
+      "align_avg_waveform": false
+    },
+    "log_level": "ERROR",
+    "directories": {
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220518\\171947"
+    },
+    "ephys_params": {
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0\\CY28_RMD_20220518_g0_tcat.imec0.lf.bin",
+      "sample_rate": 30000.189121,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "template_zero_padding": 21,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0\\CY28_RMD_20220518_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ],
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1",
+      "num_channels": 385
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_20220518_imec0-input.json"
+  }
+}

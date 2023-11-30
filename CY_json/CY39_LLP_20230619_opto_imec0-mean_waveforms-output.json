@@ -1,0 +1,50 @@
+{
+  "execution_time": 161.81498765945435,
+  "input_parameters": {
+    "log_level": "ERROR",
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.220502,
+      "ap_band_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\CY39_LLP_20230619_opto_g0_tcat.imec0.ap.bin",
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "lfp_band_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\CY39_LLP_20230619_opto_g0_tcat.imec0.lf.bin",
+      "lfp_sample_rate": 2500.0
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_LLP_20230619_opto_imec0-mean_waveforms-output.json",
+    "directories": {
+      "kilosort_output_directory": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "waveform_metrics": {
+      "waveform_metrics_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY39_LLP_20230619_opto_imec0-input.json",
+    "mean_waveform_params": {
+      "spikes_per_epoch": 1000,
+      "snr_radius": 8,
+      "pre_samples": 20,
+      "use_C_Waves": true,
+      "num_epochs": 1,
+      "spread_threshold": 0.12,
+      "upsampling_factor": 2.4390243902439024,
+      "site_range": 16,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "mean_waveforms_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2\\mean_waveforms.npy",
+      "samples_per_spike": 82
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "F:\\ecephys_out\\catgt_CY39_LLP_20230619_opto_g0\\CY39_LLP_20230619_opto_g0_imec0\\imec0_ks2\\metrics.csv"
+    }
+  }
+}

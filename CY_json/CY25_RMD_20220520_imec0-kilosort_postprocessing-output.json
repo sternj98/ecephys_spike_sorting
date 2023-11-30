@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220520\\132934\\catgt_CY25_RMD_20220520_g0\\CY25_RMD_20220520_g0_imec0\\CY25_RMD_20220520_g0_tcat.imec0.lf.bin",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220520\\132934\\catgt_CY25_RMD_20220520_g0\\CY25_RMD_20220520_g0_imec0\\CY25_RMD_20220520_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.189121,
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_20220520_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220520\\132934",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220520\\132934\\catgt_CY25_RMD_20220520_g0\\CY25_RMD_20220520_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220520\\132934\\catgt_CY25_RMD_20220520_g0\\CY25_RMD_20220520_g0_imec0",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_20220520_imec0-input.json",
+    "ks_postprocessing_params": {
+      "deletion_mode": "lowAmpCluster",
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "between_unit_dist_um": 42,
+      "include_pcs": true,
+      "remove_duplicates": true,
+      "align_avg_waveform": false,
+      "between_unit_overlap_window": 0.000333,
+      "within_unit_overlap_window": 0.000333
+    }
+  },
+  "execution_time": 641.6556189060211
+}

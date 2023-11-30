@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\29\\220504\\154714\\CY29_RLP_20220504_g0\\CY29_RLP_20220504_g0_imec0\\CY29_RLP_20220504_g0_t0.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.189121,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\29\\220504\\154714\\CY29_RLP_20220504_g0\\CY29_RLP_20220504_g0_imec0\\CY29_RLP_20220504_g0_t0.imec0.ap.bin",
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "bit_volts": 2.34375
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY29_RLP_202205040_CatGT-output.json",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220504\\154714",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\29\\220504\\154714",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220504\\154714",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    },
+    "log_level": "ERROR",
+    "catGT_helper_params": {
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "trigger_string": "0,0",
+      "stream_string": "-ap -ni -lf",
+      "probe_string": "0",
+      "gate_string": "0",
+      "car_mode": "gblcar",
+      "loccar_outer": 8,
+      "run_name": "CY29_RLP_20220504"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY29_RLP_202205040_CatGT-input.json"
+  },
+  "execution_time": 2019.167248249054
+}

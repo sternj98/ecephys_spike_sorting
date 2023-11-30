@@ -1,0 +1,54 @@
+{
+  "input_parameters": {
+    "tPrime_helper_params": {
+      "im_ex_list": " -SY=0,-1,6,0",
+      "toStream_path_3A": " ",
+      "tPrime_3A": false,
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "sync_period": 1.0,
+      "ni_sync_params": "XD=-1,0,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "toStream_sync_params": "SY=0,384,6,500",
+      "fromStream_list_3A": []
+    },
+    "log_level": "ERROR",
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220518\\171947",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "ephys_params": {
+      "reorder_lfp_channels": false,
+      "bit_volts": 2.34375,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0\\CY28_RMD_20220518_g0_tcat.imec0.lf.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220518\\171947\\catgt_CY28_RMD_20220518_g0\\CY28_RMD_20220518_g0_imec0\\CY28_RMD_20220518_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ],
+      "lfp_sample_rate": 2500.0,
+      "num_channels": 385,
+      "sample_rate": 30000.189121,
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "probe_type": "NP1"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_20220518_TPrime-output.json",
+    "catGT_helper_params": {
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "run_name": "CY28_RMD_20220518",
+      "trigger_string": "0,0",
+      "probe_string": "0",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "gate_string": "0",
+      "stream_string": "-ap",
+      "car_mode": "gbldmx"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_20220518_TPrime-input.json"
+  },
+  "execution_time": 45.62107467651367
+}

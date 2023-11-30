@@ -1,0 +1,54 @@
+{
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY33_RMD_20220708_TPrime-input.json",
+    "tPrime_helper_params": {
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "toStream_path_3A": " ",
+      "fromStream_list_3A": [],
+      "toStream_sync_params": "SY=0,384,6,500",
+      "im_ex_list": " -SY=0,-1,6,0",
+      "sync_period": 1.0,
+      "tPrime_3A": false,
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "ni_sync_params": "XD=-1,0,500"
+    },
+    "directories": {
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\33\\220708\\131158",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220708\\131158\\catgt_CY33_RMD_20220708_g0\\CY33_RMD_20220708_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220708\\131158"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY33_RMD_20220708_TPrime-output.json",
+    "catGT_helper_params": {
+      "gate_string": "0",
+      "stream_string": "-ap",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "probe_string": "0",
+      "loccar_outer": 8,
+      "car_mode": "gbldmx",
+      "trigger_string": "0,0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "run_name": "CY33_RMD_20220708"
+    },
+    "ephys_params": {
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220708\\131158\\catgt_CY33_RMD_20220708_g0\\CY33_RMD_20220708_g0_imec0\\CY33_RMD_20220708_g0_tcat.imec0.lf.bin",
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "cluster_group_file_name": "cluster_group.tsv",
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.189121,
+      "probe_type": "NP1",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220708\\131158\\catgt_CY33_RMD_20220708_g0\\CY33_RMD_20220708_g0_imec0\\CY33_RMD_20220708_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05
+    }
+  },
+  "execution_time": 36.25454616546631
+}

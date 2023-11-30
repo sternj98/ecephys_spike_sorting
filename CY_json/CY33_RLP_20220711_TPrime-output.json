@@ -1,0 +1,54 @@
+{
+  "execution_time": 33.628657579422,
+  "input_parameters": {
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY33_RLP_20220711_TPrime-output.json",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220711\\124916\\catgt_CY33_RLP_20220711_g0\\CY33_RLP_20220711_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\33\\220711\\124916",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220711\\124916",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY33_RLP_20220711_TPrime-input.json",
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "template_zero_padding": 21,
+      "bit_volts": 2.34375,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220711\\124916\\catgt_CY33_RLP_20220711_g0\\CY33_RLP_20220711_g0_imec0\\CY33_RLP_20220711_g0_tcat.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220711\\124916\\catgt_CY33_RLP_20220711_g0\\CY33_RLP_20220711_g0_imec0\\CY33_RLP_20220711_g0_tcat.imec0.lf.bin",
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.189121
+    },
+    "catGT_helper_params": {
+      "loccar_outer": 8,
+      "stream_string": "-ap",
+      "loccar_inner": 2,
+      "gate_string": "0",
+      "run_name": "CY33_RLP_20220711",
+      "probe_string": "0",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "trigger_string": "0,0",
+      "car_mode": "gbldmx"
+    },
+    "tPrime_helper_params": {
+      "toStream_sync_params": "SY=0,384,6,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "fromStream_list_3A": [],
+      "sync_period": 1.0,
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "im_ex_list": " -SY=0,-1,6,0",
+      "toStream_path_3A": " ",
+      "ni_sync_params": "XD=-1,0,500",
+      "tPrime_3A": false
+    }
+  }
+}

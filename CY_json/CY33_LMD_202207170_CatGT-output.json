@@ -1,0 +1,43 @@
+{
+  "execution_time": 2078.5271208286285,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY33_LMD_202207170_CatGT-input.json",
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "reorder_lfp_channels": false,
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\33\\220717\\162127\\CY33_LMD_20220717_g0\\CY33_LMD_20220717_g0_imec0\\CY33_LMD_20220717_g0_t0.imec0.lf.bin",
+      "sample_rate": 30000.189121,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\33\\220717\\162127\\CY33_LMD_20220717_g0\\CY33_LMD_20220717_g0_imec0\\CY33_LMD_20220717_g0_t0.imec0.ap.bin",
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "bit_volts": 2.34375,
+      "lfp_sample_rate": 2500.0,
+      "num_channels": 385,
+      "template_zero_padding": 21
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY33_LMD_202207170_CatGT-output.json",
+    "catGT_helper_params": {
+      "gate_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "loccar_outer": 8,
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "car_mode": "gblcar",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "loccar_inner": 2,
+      "probe_string": "0",
+      "run_name": "CY33_LMD_20220717",
+      "trigger_string": "0,0"
+    },
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220717\\162127",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\33\\220717\\162127",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\33\\220717\\162127"
+    },
+    "log_level": "ERROR"
+  }
+}

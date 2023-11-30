@@ -11,10 +11,10 @@ else:
 
 sys.path.append(ks_dj_pipeline_path)
 # now import datajoint stuff
-from CY_schema_table import *
-from JS_ephys_tables import * 
-from CY_anatomy_tables import *
-
+# from CY_schema_table import *
+# from JS_ephys_tables import * 
+# from JS_anatomy_tables import *
+from Anatomy_tables import *
 
 # run preprocessing for depth estimation on ephys data
 EphysDepthPreprocess().populate()

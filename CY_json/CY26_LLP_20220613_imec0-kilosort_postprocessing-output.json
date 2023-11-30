@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "ks_postprocessing_params": {
+      "between_unit_overlap_window": 0.000333,
+      "deletion_mode": "lowAmpCluster",
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "remove_duplicates": true,
+      "include_pcs": true,
+      "between_unit_dist_um": 42,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win"
+    },
+    "ephys_params": {
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220613\\135601\\catgt_CY26_LLP_20220613_g0\\CY26_LLP_20220613_g0_imec0\\CY26_LLP_20220613_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220613\\135601\\catgt_CY26_LLP_20220613_g0\\CY26_LLP_20220613_g0_imec0\\CY26_LLP_20220613_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.189121,
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY26_LLP_20220613_imec0-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY26_LLP_20220613_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220613\\135601\\catgt_CY26_LLP_20220613_g0\\CY26_LLP_20220613_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\26\\220613\\135601\\catgt_CY26_LLP_20220613_g0\\CY26_LLP_20220613_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\26\\220613\\135601",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    },
+    "log_level": "ERROR"
+  },
+  "execution_time": 276.94327545166016
+}

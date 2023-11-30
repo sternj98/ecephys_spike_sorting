@@ -1,0 +1,54 @@
+{
+  "execution_time": 41.39224123954773,
+  "input_parameters": {
+    "catGT_helper_params": {
+      "trigger_string": "0,0",
+      "run_name": "CY29_LMD_20220510",
+      "gate_string": "0",
+      "stream_string": "-ap",
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "loccar_inner": 2,
+      "probe_string": "0",
+      "car_mode": "gbldmx",
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win"
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY29_LMD_20220510_TPrime-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY29_LMD_20220510_TPrime-output.json",
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "probe_type": "NP1",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220510\\152023\\catgt_CY29_LMD_20220510_g0\\CY29_LMD_20220510_g0_imec0\\CY29_LMD_20220510_g0_tcat.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220510\\152023\\catgt_CY29_LMD_20220510_g0\\CY29_LMD_20220510_g0_imec0\\CY29_LMD_20220510_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "num_channels": 385,
+      "sample_rate": 30000.189121
+    },
+    "tPrime_helper_params": {
+      "ni_sync_params": "XD=-1,0,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "im_ex_list": " -SY=0,-1,6,0",
+      "fromStream_list_3A": [],
+      "toStream_path_3A": " ",
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "sync_period": 1.0,
+      "tPrime_3A": false,
+      "toStream_sync_params": "SY=0,384,6,500"
+    },
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\29\\220510\\152023",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220510\\152023\\catgt_CY29_LMD_20220510_g0\\CY29_LMD_20220510_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\29\\220510\\152023"
+    }
+  }
+}

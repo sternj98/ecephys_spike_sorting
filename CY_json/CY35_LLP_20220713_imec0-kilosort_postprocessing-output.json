@@ -1,0 +1,41 @@
+{
+  "execution_time": 741.318793296814,
+  "input_parameters": {
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\35\\220713\\150257",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\35\\220713\\150257\\catgt_CY35_LLP_20220713_g0\\CY35_LLP_20220713_g0_imec0",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\35\\220713\\150257\\catgt_CY35_LLP_20220713_g0\\CY35_LLP_20220713_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "ks_postprocessing_params": {
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "within_unit_overlap_window": 0.000333,
+      "align_avg_waveform": false,
+      "between_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "remove_duplicates": true,
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": true
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY35_LLP_20220713_imec0-kilosort_postprocessing-output.json",
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\35\\220713\\150257\\catgt_CY35_LLP_20220713_g0\\CY35_LLP_20220713_g0_imec0\\CY35_LLP_20220713_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.189121,
+      "num_channels": 385,
+      "template_zero_padding": 21,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\35\\220713\\150257\\catgt_CY35_LLP_20220713_g0\\CY35_LLP_20220713_g0_imec0\\CY35_LLP_20220713_g0_tcat.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "lfp_sample_rate": 2500.0
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY35_LLP_20220713_imec0-input.json",
+    "log_level": "ERROR"
+  }
+}

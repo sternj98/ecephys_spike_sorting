@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_202205200_CatGT-output.json",
+    "directories": {
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220520\\152808",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220520\\152808",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220520\\152808"
+    },
+    "catGT_helper_params": {
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "gate_string": "0",
+      "probe_string": "0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "stream_string": "-ap -ni -lf",
+      "loccar_outer": 8,
+      "car_mode": "gblcar",
+      "run_name": "CY28_RMD_20220520",
+      "trigger_string": "0,0"
+    },
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.189121,
+      "probe_type": "NP1",
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220520\\152808\\CY28_RMD_20220520_g0\\CY28_RMD_20220520_g0_imec0\\CY28_RMD_20220520_g0_t0.imec0.lf.bin",
+      "reference_channels": [
+        191
+      ],
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220520\\152808\\CY28_RMD_20220520_g0\\CY28_RMD_20220520_g0_imec0\\CY28_RMD_20220520_g0_t0.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "template_zero_padding": 21,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_202205200_CatGT-input.json"
+  },
+  "execution_time": 2056.934919118881
+}

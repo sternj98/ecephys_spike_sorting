@@ -1,0 +1,43 @@
+{
+  "execution_time": 2346.747769832611,
+  "input_parameters": {
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY35_LMD_202207150_CatGT-output.json",
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\35\\220715\\153712",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\35\\220715\\153712",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\35\\220715\\153712",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.189121,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "num_channels": 385,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\35\\220715\\153712\\CY35_LMD_20220715_g0\\CY35_LMD_20220715_g0_imec0\\CY35_LMD_20220715_g0_t0.imec0.lf.bin",
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\35\\220715\\153712\\CY35_LMD_20220715_g0\\CY35_LMD_20220715_g0_imec0\\CY35_LMD_20220715_g0_t0.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY35_LMD_202207150_CatGT-input.json",
+    "catGT_helper_params": {
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "gate_string": "0",
+      "loccar_inner": 2,
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "trigger_string": "0,0",
+      "probe_string": "0",
+      "run_name": "CY35_LMD_20220715",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar"
+    },
+    "log_level": "ERROR"
+  }
+}

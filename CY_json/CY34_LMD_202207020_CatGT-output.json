@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY34_LMD_202207020_CatGT-input.json",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220702\\170523",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\34\\220702\\170523",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\34\\220702\\170523"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY34_LMD_202207020_CatGT-output.json",
+    "catGT_helper_params": {
+      "car_mode": "gblcar",
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "stream_string": "-ap -ni -lf",
+      "gate_string": "0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "loccar_outer": 8,
+      "loccar_inner": 2,
+      "trigger_string": "0,0",
+      "run_name": "CY34_LMD_20220702",
+      "probe_string": "0"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "sample_rate": 30000.189121,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\34\\220702\\170523\\CY34_LMD_20220702_g0\\CY34_LMD_20220702_g0_imec0\\CY34_LMD_20220702_g0_t0.imec0.lf.bin",
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\34\\220702\\170523\\CY34_LMD_20220702_g0\\CY34_LMD_20220702_g0_imec0\\CY34_LMD_20220702_g0_t0.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "reference_channels": [
+        191
+      ]
+    }
+  },
+  "execution_time": 2528.6053862571716
+}

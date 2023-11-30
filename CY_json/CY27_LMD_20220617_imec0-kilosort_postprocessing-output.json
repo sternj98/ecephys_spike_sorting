@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY27_LMD_20220617_imec0-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY27_LMD_20220617_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "include_pcs": true,
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "remove_duplicates": true,
+      "deletion_mode": "lowAmpCluster"
+    },
+    "ephys_params": {
+      "sample_rate": 30000.189121,
+      "bit_volts": 2.34375,
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220617\\150930\\catgt_CY27_LMD_20220617_g0\\CY27_LMD_20220617_g0_imec0\\CY27_LMD_20220617_g0_tcat.imec0.lf.bin",
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220617\\150930\\catgt_CY27_LMD_20220617_g0\\CY27_LMD_20220617_g0_imec0\\CY27_LMD_20220617_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "probe_type": "NP1",
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220617\\150930\\catgt_CY27_LMD_20220617_g0\\CY27_LMD_20220617_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\27\\220617\\150930",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220617\\150930\\catgt_CY27_LMD_20220617_g0\\CY27_LMD_20220617_g0_imec0"
+    },
+    "log_level": "ERROR"
+  },
+  "execution_time": 527.7449390888214
+}

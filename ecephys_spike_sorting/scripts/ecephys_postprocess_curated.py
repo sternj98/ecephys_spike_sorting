@@ -18,7 +18,7 @@ else:
 sys.path.append(ks_dj_pipeline_path)
 
 # now import datajoint stuff
-from JS_ephys_tables import * 
+from Ephys_tables import * 
 # from dj_ephys_utils import update_curated_table 
 
 # # first add new sessions to table that keeps track of where we have manually curated spikesorting
@@ -43,30 +43,31 @@ all_sheets = sheet.worksheets()
 
 # go through each mouse's google sheet
 for this_sheet in all_sheets:
-    this_prefix = this_sheet.title[:2]
-    this_mouse = int(this_sheet.title[2:])
-    records_data = this_sheet.get_all_records()
-    sheet_df = pd.DataFrame(records_data)
-    if 'Curated' in sheet_df.columns:
-        curated_dates = [parser.parse(x).date() for x in sheet_df[sheet_df['Curated']=='y']['Date'].values]
-        # for each date, check if adjusted spike times are available
-        for this_date in curated_dates: 
-            date_reformat = re.sub(r'\W+', '', datetime.datetime.strftime(this_date,'%y%m%d'))
-            ece_results_path,run_specs = unpack_dj((SpikeSortingResults() & ('mouse_id = ' + str(this_mouse)) & ('session_date = ' + date_reformat)).fetch('ecephys_output_path','run_specs'))
-            all_probes = run_specs[3].split(',')
-            for this_probe in range(len(all_probes)):
-                session_name = os.path.split(ece_results_path)[-1][6:]
-                imec_folder = session_name + '_imec' + all_probes[this_probe]
-                ks2_folder = 'imec' + all_probes[this_probe] + '_ks2'
-                adj_spikes_file = os.path.join(ece_results_path,imec_folder,ks2_folder,'spike_times_sec_adj.npy')           
-                has_adj = os.path.isfile(adj_spikes_file)
-                if not has_adj: # append session_keys and ephys path 
-                    temp_key = (EphysSession() & ('mouse_id = ' + str(this_mouse)) & ('session_date = ' + date_reformat)).fetch('KEY')[0]
-                    temp_path = (EphysSession() & ('mouse_id = ' + str(this_mouse)) & ('session_date = ' + date_reformat)).fetch('ephys_path')[0]
-                    if temp_key not in session_keys:
-                        session_keys.append(temp_key)
-                    if temp_path not in ephys_paths:
-                        ephys_paths.append(temp_path)  
+    if 'opto' not in this_sheet.title:
+        this_prefix = this_sheet.title[:2]
+        this_mouse = int(this_sheet.title[2:])
+        records_data = this_sheet.get_all_records()
+        sheet_df = pd.DataFrame(records_data)
+        if 'Curated' in sheet_df.columns:
+            curated_dates = [parser.parse(x).date() for x in sheet_df[sheet_df['Curated']=='y']['Date'].values]
+            # for each date, check if adjusted spike times are available
+            for this_date in curated_dates: 
+                date_reformat = re.sub(r'\W+', '', datetime.datetime.strftime(this_date,'%y%m%d'))
+                ece_results_path,run_specs = unpack_dj((SpikeSortingResults() & ('mouse_id = ' + str(this_mouse)) & ('session_date = ' + date_reformat)).fetch('ecephys_output_path','run_specs'))
+                all_probes = run_specs[3].split(',')
+                for this_probe in range(len(all_probes)):
+                    session_name = os.path.split(ece_results_path)[-1][6:]
+                    imec_folder = session_name + '_imec' + all_probes[this_probe]
+                    ks2_folder = 'imec' + all_probes[this_probe] + '_ks2'
+                    adj_spikes_file = os.path.join(ece_results_path,imec_folder,ks2_folder,'spike_times_sec_adj.npy')           
+                    has_adj = os.path.isfile(adj_spikes_file)
+                    if not has_adj: # append session_keys and ephys path 
+                        temp_key = (EphysSession() & ('mouse_id = ' + str(this_mouse)) & ('session_date = ' + date_reformat)).fetch('KEY')[0]
+                        temp_path = (EphysSession() & ('mouse_id = ' + str(this_mouse)) & ('session_date = ' + date_reformat)).fetch('ephys_path')[0]
+                        if temp_key not in session_keys:
+                            session_keys.append(temp_key)
+                        if temp_path not in ephys_paths:
+                            ephys_paths.append(temp_path)  
 
 # parameters for running ecephys
 modules = ['mean_waveforms','quality_metrics']

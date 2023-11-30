@@ -1,0 +1,41 @@
+{
+  "execution_time": 759.2945673465729,
+  "input_parameters": {
+    "log_level": "ERROR",
+    "ks_postprocessing_params": {
+      "deletion_mode": "lowAmpCluster",
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "remove_duplicates": true,
+      "align_avg_waveform": false,
+      "between_unit_dist_um": 42,
+      "include_pcs": true,
+      "within_unit_overlap_window": 0.000333
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY41_RLP_20231018_mazeOpto_imec0-input.json",
+    "ephys_params": {
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231018\\165928\\catgt_CY41_RLP_20231018_mazeOpto_g0\\CY41_RLP_20231018_mazeOpto_g0_imec0\\CY41_RLP_20231018_mazeOpto_g0_tcat.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.220502,
+      "template_zero_padding": 21,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231018\\165928\\catgt_CY41_RLP_20231018_mazeOpto_g0\\CY41_RLP_20231018_mazeOpto_g0_imec0\\CY41_RLP_20231018_mazeOpto_g0_tcat.imec0.ap.bin",
+      "vertical_site_spacing": 1e-05
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231018\\165928",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231018\\165928\\catgt_CY41_RLP_20231018_mazeOpto_g0\\CY41_RLP_20231018_mazeOpto_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231018\\165928\\catgt_CY41_RLP_20231018_mazeOpto_g0\\CY41_RLP_20231018_mazeOpto_g0_imec0"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY41_RLP_20231018_mazeOpto_imec0-kilosort_postprocessing-output.json"
+  }
+}

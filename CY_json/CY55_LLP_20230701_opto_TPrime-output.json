@@ -1,0 +1,54 @@
+{
+  "execution_time": 1.705146312713623,
+  "input_parameters": {
+    "catGT_helper_params": {
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "car_mode": "gbldmx",
+      "run_name": "CY55_LLP_20230701_opto",
+      "gate_string": "0",
+      "trigger_string": "0,0",
+      "loccar_outer": 8,
+      "cmdStr": "-prb_fld -out_prb_fld",
+      "probe_string": "0",
+      "loccar_inner": 2,
+      "stream_string": "-ap"
+    },
+    "tPrime_helper_params": {
+      "toStream_path_3A": " ",
+      "fromStream_list_3A": [],
+      "sync_period": 1.0,
+      "ni_sync_params": "XD=-1,0,500",
+      "toStream_sync_params": "SY=0,-1,6,500",
+      "tPrime_path": "C:\\Users\\xinto\\Documents\\TPrime-win",
+      "im_ex_list": " -SY=0,-1,6,500",
+      "ni_ex_list": "-SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "tPrime_3A": false
+    },
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "template_zero_padding": 21,
+      "num_channels": 385,
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "vertical_site_spacing": 1e-05,
+      "sample_rate": 30000.220502,
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "D:\\ecephys_out\\catgt_CY55_LLP_20230701_opto_g0\\CY55_LLP_20230701_opto_g0_imec0\\CY55_LLP_20230701_opto_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "ap_band_file": "D:\\ecephys_out\\catgt_CY55_LLP_20230701_opto_g0\\CY55_LLP_20230701_opto_g0_imec0\\CY55_LLP_20230701_opto_g0_tcat.imec0.ap.bin",
+      "reorder_lfp_channels": false
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY55_LLP_20230701_opto_TPrime-input.json",
+    "directories": {
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "kilosort_output_directory": "D:\\ecephys_out\\catgt_CY55_LLP_20230701_opto_g0\\CY55_LLP_20230701_opto_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData",
+      "extracted_data_directory": "D:\\ecephys_out"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY55_LLP_20230701_opto_TPrime-output.json"
+  }
+}

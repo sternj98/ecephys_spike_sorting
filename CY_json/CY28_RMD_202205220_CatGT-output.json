@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220522\\182908\\CY28_RMD_20220522_g0\\CY28_RMD_20220522_g0_imec0\\CY28_RMD_20220522_g0_t0.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1",
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220522\\182908\\CY28_RMD_20220522_g0\\CY28_RMD_20220522_g0_imec0\\CY28_RMD_20220522_g0_t0.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.189121
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_202205220_CatGT-input.json",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220522\\182908",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220522\\182908",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220522\\182908"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_202205220_CatGT-output.json",
+    "catGT_helper_params": {
+      "loccar_inner": 2,
+      "car_mode": "gblcar",
+      "loccar_outer": 8,
+      "trigger_string": "0,0",
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "gate_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "run_name": "CY28_RMD_20220522",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "probe_string": "0"
+    },
+    "log_level": "ERROR"
+  },
+  "execution_time": 1839.1244058609009
+}

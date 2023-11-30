@@ -1,0 +1,43 @@
+{
+  "execution_time": 2119.983216524124,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_202205190_CatGT-input.json",
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220519\\154725\\CY25_RMD_20220519_g0\\CY25_RMD_20220519_g0_imec0\\CY25_RMD_20220519_g0_t0.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1",
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.189121,
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220519\\154725\\CY25_RMD_20220519_g0\\CY25_RMD_20220519_g0_imec0\\CY25_RMD_20220519_g0_t0.imec0.lf.bin"
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220519\\154725",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\25\\220519\\154725",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\25\\220519\\154725",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY25_RMD_202205190_CatGT-output.json",
+    "catGT_helper_params": {
+      "stream_string": "-ap -ni -lf",
+      "loccar_outer": 8,
+      "gate_string": "0",
+      "car_mode": "gblcar",
+      "trigger_string": "0,0",
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "loccar_inner": 2,
+      "probe_string": "0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "run_name": "CY25_RMD_20220519"
+    },
+    "log_level": "ERROR"
+  }
+}

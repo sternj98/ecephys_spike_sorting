@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "log_level": "ERROR",
+    "directories": {
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220717\\142808\\catgt_CY31_LMD_20220717_g0\\CY31_LMD_20220717_g0_imec0\\imec0_ks2",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\31\\220717\\142808",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220717\\142808\\catgt_CY31_LMD_20220717_g0\\CY31_LMD_20220717_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "ks_postprocessing_params": {
+      "between_unit_dist_um": 42,
+      "align_avg_waveform": false,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "between_unit_overlap_window": 0.000333,
+      "remove_duplicates": true,
+      "include_pcs": true,
+      "deletion_mode": "lowAmpCluster",
+      "within_unit_overlap_window": 0.000333
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY31_LMD_20220717_imec0-kilosort_postprocessing-output.json",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY31_LMD_20220717_imec0-input.json",
+    "ephys_params": {
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220717\\142808\\catgt_CY31_LMD_20220717_g0\\CY31_LMD_20220717_g0_imec0\\CY31_LMD_20220717_g0_tcat.imec0.ap.bin",
+      "bit_volts": 2.34375,
+      "reorder_lfp_channels": false,
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "template_zero_padding": 21,
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\31\\220717\\142808\\catgt_CY31_LMD_20220717_g0\\CY31_LMD_20220717_g0_imec0\\CY31_LMD_20220717_g0_tcat.imec0.lf.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.189121,
+      "vertical_site_spacing": 1e-05
+    }
+  },
+  "execution_time": 800.6504790782928
+}

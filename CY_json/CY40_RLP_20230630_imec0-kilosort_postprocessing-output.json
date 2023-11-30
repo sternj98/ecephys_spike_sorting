@@ -1,0 +1,41 @@
+{
+  "execution_time": 1130.377977848053,
+  "input_parameters": {
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RLP_20230630_imec0-input.json",
+    "log_level": "ERROR",
+    "ks_postprocessing_params": {
+      "remove_duplicates": true,
+      "deletion_mode": "lowAmpCluster",
+      "within_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "include_pcs": true,
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "align_avg_waveform": false
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY40_RLP_20230630_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\40\\230630\\112159",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp"
+    },
+    "ephys_params": {
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "lfp_sample_rate": 2500.0,
+      "num_channels": 385,
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\CY40_RLP_20230630_g0_tcat.imec0.lf.bin",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\40\\230630\\112159\\catgt_CY40_RLP_20230630_g0\\CY40_RLP_20230630_g0_imec0\\CY40_RLP_20230630_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "probe_type": "NP1",
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.220502,
+      "template_zero_padding": 21
+    }
+  }
+}

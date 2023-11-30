@@ -1,0 +1,43 @@
+{
+  "execution_time": 2125.922969341278,
+  "input_parameters": {
+    "directories": {
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "F:\\kilosort_datatemp",
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231016\\184056",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231016\\184056",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\41\\231016\\184056"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY41_RLP_20231016_funnelOpto0_CatGT-output.json",
+    "log_level": "ERROR",
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "template_zero_padding": 21,
+      "ap_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231016\\184056\\CY41_RLP_20231016_funnelOpto_g0\\CY41_RLP_20231016_funnelOpto_g0_imec0\\CY41_RLP_20231016_funnelOpto_g0_t0.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.220502,
+      "lfp_band_file": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\41\\231016\\184056\\CY41_RLP_20231016_funnelOpto_g0\\CY41_RLP_20231016_funnelOpto_g0_imec0\\CY41_RLP_20231016_funnelOpto_g0_t0.imec0.lf.bin",
+      "bit_volts": 2.34375
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY41_RLP_20231016_funnelOpto0_CatGT-input.json",
+    "catGT_helper_params": {
+      "stream_string": "-ap -ni -lf",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld -inarow=1 -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -SY=0,-1,6,500 -XA=3,2,0,0 -XD=-1,0,500 -XD=-1,1,0 -iXD=-1,1,0",
+      "gate_string": "0",
+      "catGTPath": "C:\\Users\\xinto\\Documents\\CatGT-win",
+      "run_name": "CY41_RLP_20231016_funnelOpto",
+      "car_mode": "gblcar",
+      "probe_string": "0",
+      "trigger_string": "0,0",
+      "loccar_outer": 8
+    }
+  }
+}

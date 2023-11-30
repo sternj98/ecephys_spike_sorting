@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "probe_type": "NP1",
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220522\\182908\\catgt_CY28_RMD_20220522_g0\\CY28_RMD_20220522_g0_imec0\\CY28_RMD_20220522_g0_tcat.imec0.ap.bin",
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220522\\182908\\catgt_CY28_RMD_20220522_g0\\CY28_RMD_20220522_g0_imec0\\CY28_RMD_20220522_g0_tcat.imec0.lf.bin",
+      "lfp_sample_rate": 2500.0,
+      "sample_rate": 30000.189121,
+      "reference_channels": [
+        191
+      ],
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "ks_postprocessing_params": {
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": true,
+      "remove_duplicates": true,
+      "within_unit_overlap_window": 0.000333,
+      "align_avg_waveform": false,
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_20220522_imec0-input.json",
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\28\\220522\\182908",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220522\\182908\\catgt_CY28_RMD_20220522_g0\\CY28_RMD_20220522_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\28\\220522\\182908\\catgt_CY28_RMD_20220522_g0\\CY28_RMD_20220522_g0_imec0",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting"
+    },
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY28_RMD_20220522_imec0-kilosort_postprocessing-output.json"
+  },
+  "execution_time": 172.88372468948364
+}

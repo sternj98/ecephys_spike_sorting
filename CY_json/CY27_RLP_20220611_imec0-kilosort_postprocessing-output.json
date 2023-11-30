@@ -1,0 +1,41 @@
+{
+  "execution_time": 1253.1839015483856,
+  "input_parameters": {
+    "ephys_params": {
+      "reorder_lfp_channels": false,
+      "template_zero_padding": 21,
+      "ap_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220611\\183752\\catgt_CY27_RLP_20220611_g0\\CY27_RLP_20220611_g0_imec0\\CY27_RLP_20220611_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220611\\183752\\catgt_CY27_RLP_20220611_g0\\CY27_RLP_20220611_g0_imec0\\CY27_RLP_20220611_g0_tcat.imec0.lf.bin",
+      "sample_rate": 30000.189121,
+      "vertical_site_spacing": 1e-05
+    },
+    "directories": {
+      "npx_directory": "\\\\research.files.med.Harvard.edu\\neurobio\\HarveyLab\\Tier1\\Cindy\\EphysData\\CY\\27\\220611\\183752",
+      "kilosort_output_tmp": "D:\\kilosort_datatemp",
+      "ecephys_directory": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\ecephys_spike_sorting",
+      "extracted_data_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220611\\183752\\catgt_CY27_RLP_20220611_g0\\CY27_RLP_20220611_g0_imec0",
+      "kilosort_output_directory": "Z:\\HarveyLab\\Tier1\\Cindy\\ProcessedEphys\\CY\\27\\220611\\183752\\catgt_CY27_RLP_20220611_g0\\CY27_RLP_20220611_g0_imec0\\imec0_ks2"
+    },
+    "input_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY27_RLP_20220611_imec0-input.json",
+    "output_json": "C:\\Users\\xinto\\Documents\\ecephys_spike_sorting\\CY_json\\CY27_RLP_20220611_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "include_pcs": true,
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\xinto\\Documents\\C_Waves-win",
+      "between_unit_dist_um": 42,
+      "remove_duplicates": true,
+      "align_avg_waveform": false,
+      "deletion_mode": "lowAmpCluster"
+    },
+    "log_level": "ERROR"
+  }
+}
